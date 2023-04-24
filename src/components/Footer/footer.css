@@ -27,4 +27,9 @@ p:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  height: 88px;
+  width: 88px;
 }/*# sourceMappingURL=footer.css.map */

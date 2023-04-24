@@ -19,5 +19,8 @@ p:nth-child(3){
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+img{
+    @include size_100;
 }
