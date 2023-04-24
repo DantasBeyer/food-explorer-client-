@@ -32,8 +32,53 @@ $blue_100 : #82F3FF;
 $blue_200 : #065E7C;
 
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@mixin roboto_smaller_bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 160%;
+}
+@mixin roboto_small_spaced {
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 160%;
+}
+@mixin roboto_small_regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 100%;
+}
+@mixin roboto_big_bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
+}
+@mixin roboto_bigger_bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: auto;
+}
+@mixin roboto_biggest_regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    font-size: 32px;
+    line-height: 160%;
+}
+@mixin roboto_giant_regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: auto;
+}
 
 
+// IMG Sizes 
 
     
 

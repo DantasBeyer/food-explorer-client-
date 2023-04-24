@@ -1,3 +1,30 @@
-div {
-  font-size: larger;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+p:nth-child(2) {
+  color: #04D361;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+p:nth-child(1) {
+  color: #4D585E;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 32px;
+  line-height: 160%;
+}
+
+p:nth-child(3) {
+  color: #AB222E;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=footer.css.map */

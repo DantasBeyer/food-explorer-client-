@@ -1,5 +1,23 @@
+@import "../../style/_variables.scss";
 
+p:nth-child(2) {
+    color: $green;
+    @include roboto_smaller_bold();
+}
 
-div{
-    font-size: larger;
+p:nth-child(1){
+    color: $light_700 ;
+    @include roboto_biggest_regular();
+
+}
+p:nth-child(3){
+    color: $red_300;
+    @include roboto_giant_regular();
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
