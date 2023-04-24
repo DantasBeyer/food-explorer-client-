@@ -1,0 +1,19 @@
+@import "../../style/variables";
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 92px;
+    height: 48px;
+    
+    
+
+    
+    background-color: $red_100;
+    color: $light_100;
+    @include poppins_100_medium;
+    border-radius: 5px;
+    
+}
