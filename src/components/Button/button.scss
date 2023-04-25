@@ -8,12 +8,16 @@
     width: 92px;
     height: 48px;
     
-    
-
-    
+    cursor: pointer;
     background-color: $red_100;
     color: $light_100;
     @include poppins_100_medium;
     border-radius: 5px;
     
+    &:hover{
+        background-color: $red_200;
+    }
+    &:active{
+        background-color: $red_300;
+    }
 }
