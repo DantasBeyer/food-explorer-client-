@@ -1,0 +1,17 @@
+@import "../../style/variables";
+
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 5px;
+    width: 98px;
+    height: 32px;
+    background-color: $dark_1000;
+    color: $light_100;
+
+    @include poppins_100_medium
+}
+
+   

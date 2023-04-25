@@ -27,6 +27,7 @@ p:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 img {
