@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+#stepper_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #000405;
+  margin: 2%;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+}
+#stepper_container button {
+  background-color: #000405;
+  color: #FFFFFF;
+  width: 40px;
+  height: 32px;
+  border: none;
+  font-size: 20px;
+}
+#stepper_container button img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2px;
+  width: 18px;
+}/*# sourceMappingURL=stepper.css.map */

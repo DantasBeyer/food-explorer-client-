@@ -1,0 +1,35 @@
+@import '../../style/variables';
+
+#stepper_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: $dark_100;
+    margin: 2%;
+    color: $light_100;
+    @include roboto_big_bold;
+    
+    button{
+        background-color: $dark_100;
+        color: $light_100;
+        width: 40px;
+        height: 32px;
+        border:none;
+        font-size: 20px;  
+    
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2px;
+            width: 18px;
+        }
+    }
+}
+
+
+
+
+
+

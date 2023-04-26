@@ -1,0 +1,22 @@
+@import '../../style/variables';
+
+#my_orders_container{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: $red_100;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    p{
+        color: $light_100;
+        font-size: 100%;
+    }
+    img{
+        height: 0.9rem;
+        width: 0.9rem;
+    }
+}
