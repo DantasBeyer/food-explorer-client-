@@ -17,7 +17,15 @@ button{
     width: 40px;
     height: 32px;
     border:none;
-    font-size: 20px;
+    font-size: 20px;  
+
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2px;
+        width: 18px;
+    }
 }
 
 

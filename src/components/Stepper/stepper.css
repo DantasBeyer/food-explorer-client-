@@ -20,4 +20,11 @@ button {
   height: 32px;
   border: none;
   font-size: 20px;
+}
+button img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2px;
+  width: 18px;
 }/*# sourceMappingURL=stepper.css.map */

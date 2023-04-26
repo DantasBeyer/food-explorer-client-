@@ -3,6 +3,7 @@ import Button from './components/Button/button';
 import Tag from './components/Tag/tag'
 import Stepper from './components/Stepper/stepper';
 import './style/input.css'
+import Myorders from './components/MyOrders/myorders.jsx'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Button/>
       <br/>
       <Tag/>
-      <Stepper/>
+      <Stepper/> 
+
+      <Myorders/>
       
     </div>
   );

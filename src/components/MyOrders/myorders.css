@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+#my_orders {
+  width: 216px;
+  height: 56px;
+  background-color: #750310;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#my_orders p {
+  color: #FFFFFF;
+}
+#my_orders img {
+  height: 32px;
+  width: 32px;
+}/*# sourceMappingURL=myorders.css.map */
