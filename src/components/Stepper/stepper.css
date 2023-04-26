@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-.stepper {
+#stepper_container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,8 +12,7 @@
   font-size: 20px;
   line-height: 160%;
 }
-
-button {
+#stepper_container button {
   background-color: #000405;
   color: #FFFFFF;
   width: 40px;
@@ -21,7 +20,7 @@ button {
   border: none;
   font-size: 20px;
 }
-button img {
+#stepper_container button img {
   display: flex;
   align-items: center;
   justify-content: center;

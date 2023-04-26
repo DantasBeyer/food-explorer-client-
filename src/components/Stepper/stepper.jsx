@@ -6,7 +6,7 @@ import plusImg from '../../img/icons/plus.png'
 
 function stepper() {
   return (
-      <div className='stepper'>
+      <div id='stepper_container'>
         <button id='minus'>
             <img src={minusImg} alt="minus_img" />
         </button>

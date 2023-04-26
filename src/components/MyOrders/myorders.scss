@@ -1,8 +1,8 @@
 @import '../../style/variables';
 
-#my_orders{
-    width: 216px;
-    height: 56px;
+#my_orders_container{
+    width: 10rem;
+    height: 2.5rem;
     background-color: $red_100;
     border-radius: 5px;
 
@@ -13,9 +13,10 @@
     
     p{
         color: $light_100;
+        font-size: 100%;
     }
     img{
-        height: 32px;
-        width: 32px;
+        height: 0.9rem;
+        width: 0.9rem;
     }
 }

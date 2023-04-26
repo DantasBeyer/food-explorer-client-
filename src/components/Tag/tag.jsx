@@ -3,7 +3,7 @@ import './tag.css'
 
 function tag() {
   return (
-    <div className='tag'>
+    <div id='tag_container'>
         ingredients
     </div>
   )

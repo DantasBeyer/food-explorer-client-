@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-#my_orders {
-  width: 216px;
-  height: 56px;
+#my_orders_container {
+  width: 10rem;
+  height: 2.5rem;
   background-color: #750310;
   border-radius: 5px;
   display: flex;
@@ -9,10 +9,11 @@
   align-items: center;
   gap: 8px;
 }
-#my_orders p {
+#my_orders_container p {
   color: #FFFFFF;
+  font-size: 100%;
 }
-#my_orders img {
-  height: 32px;
-  width: 32px;
+#my_orders_container img {
+  height: 0.9rem;
+  width: 0.9rem;
 }/*# sourceMappingURL=myorders.css.map */
