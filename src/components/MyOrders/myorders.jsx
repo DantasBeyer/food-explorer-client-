@@ -4,10 +4,10 @@ import receptImg from '../../img/icons/recept.png'
 
 function myorders() {
   return (
-    <div id='my_orders_container'>
+      <div className='btn_container'>
         <img src={receptImg} alt="recept_img" />
-        <p>My orders (0)</p>
-    </div>
+        My Orders (0)
+      </div>
   )
 }
 

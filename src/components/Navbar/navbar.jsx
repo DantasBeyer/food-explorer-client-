@@ -8,18 +8,12 @@ function navbar() {
   return (
     <div id='navbar_container'>
       <section className='logo'>
-        <img src={logo} alt="logo_img" />
+        <img  className='img' src={logo} alt="logo_img" />
         <p>food explorer</p>
       </section>
-      
       <input className='search_bar' type="text" placeholder='"img" search dishes or ingredients'/>
-
-      <div className='myorders'>
         <Myorders/>
-      </div>
-      
-      <img src={exitImg} alt="logout_img" />
-        
+      <img className='img' src={exitImg} alt="logout_img" />
     </div>
   )
 }

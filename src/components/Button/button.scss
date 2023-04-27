@@ -21,3 +21,25 @@
         background-color: $red_300;
     }
 }
+
+
+
+   .btn_container_adm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $red_100;
+
+    @include poppins_100_medium;
+    color: $light_100;
+
+    padding: 6px 20px;
+    gap: 8px;
+    border-radius: 5px;
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+
+   }
