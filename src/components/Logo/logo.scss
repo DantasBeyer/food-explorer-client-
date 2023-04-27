@@ -1,0 +1,49 @@
+@import  '../../style/variables';
+
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    img{
+        width: 25px;
+        
+    }
+    color: $light_100;
+    @include roboto_big_bold
+}
+
+.logo_container_adm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    img{
+        width: 25px;
+        
+    }
+    section{
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        height: 35px;
+    }
+    .logo_name{
+        color: $light_100;
+        @include roboto_big_bold;
+        margin: 0;
+    }
+
+    .logo_name_adm{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -8px;
+        color: $blue_100;
+        @include roboto_smallest_regular;
+    }
+}
+    
+
+
