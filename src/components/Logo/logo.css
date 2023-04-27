@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+}
+.logo_container img {
+  width: 25px;
+}
+
+.logo_container_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logo_container_adm img {
+  width: 25px;
+}
+.logo_container_adm section {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  height: 35px;
+}
+.logo_container_adm .logo_name {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+  margin: 0;
+}
+.logo_container_adm .logo_name_adm {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -8px;
+  color: #82F3FF;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 160%;
+}/*# sourceMappingURL=logo.css.map */
