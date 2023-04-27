@@ -1,7 +1,7 @@
 @import '../../style/variables';
 
 #navbar_container{
-    display: flex;
+display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
@@ -41,6 +41,55 @@
 
 
 
+
+#navbar_container_adm{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+      
+    width: 100vw;
+    height: 65px;
+    background-color: $dark_600;
+
+    .img_adm{
+        width: 30px;
+    }
+
+}
+
+
+
+.logo_adm{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+    p{
+        color: $light_100;
+        @include roboto_big_bold
+    }
+}
+
+.search_bar_adm{
+    background-color: $dark_900;
+    border: none;
+    color: $light_100;
+    width: 30%;
+    height: 40%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+  
 
 
 

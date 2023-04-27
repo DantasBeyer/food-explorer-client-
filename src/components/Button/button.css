@@ -19,4 +19,23 @@
 }
 .btn:active {
   background-color: #AB222E;
+}
+
+.btn_container_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #750310;
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  gap: 8px;
+  border-radius: 5px;
+}
+.btn_container_adm img {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=button.css.map */
