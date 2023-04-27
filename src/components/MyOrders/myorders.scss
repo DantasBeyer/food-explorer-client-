@@ -1,22 +1,21 @@
 @import '../../style/variables';
 
-#my_orders_container{
-    width: 10rem;
-    height: 2.5rem;
-    background-color: $red_100;
-    border-radius: 5px;
-
+   .btn_container{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $red_100;
+
+    @include poppins_100_medium;
+    color: $light_100;
+
+    padding: 6px 20px;
     gap: 8px;
-    
-    p{
-        color: $light_100;
-        font-size: 100%;
-    }
+    border-radius: 5px;
+
     img{
-        height: 0.9rem;
-        width: 0.9rem;
+        width: 20px;
+        height: 20px;
     }
-}
+
+   }
