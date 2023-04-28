@@ -8,22 +8,30 @@
   margin: 2%;
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 160%;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 100%;
 }
-#stepper_container button {
-  background-color: #000405;
-  color: #FFFFFF;
-  width: 40px;
-  height: 32px;
-  border: none;
-  font-size: 20px;
-}
-#stepper_container button img {
+
+button {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 2px;
-  width: 18px;
+  align-items: center;
+  width: 55px;
+  height: 35px;
+  padding: 10px;
+  background-color: #000405;
+  border: none;
+}
+button img {
+  width: 40%;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active img {
+  width: 45%;
 }/*# sourceMappingURL=stepper.css.map */

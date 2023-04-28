@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
      
-   <Navbar/>
+ {  /* <Navbar/>
       <NavbarAdm/> 
       <NavbarMobile/>
       <NavbarMobileAdm/>
@@ -23,10 +23,10 @@ function App() {
       <Button/>
       <ButtonAdm/>
       <br/>
-      <Tag/>
-      <Stepper/> 
       <Myorders/>
       <Myorders_mobile/>
+      <Tag/> */}
+      <Stepper/> 
     </div>
   );
 }
