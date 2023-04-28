@@ -8,25 +8,38 @@
     background-color: $dark_100;
     margin: 2%;
     color: $light_100;
-    @include roboto_big_bold;
+    @include roboto_small_regular
     
-    button{
-        background-color: $dark_100;
-        color: $light_100;
-        width: 40px;
-        height: 32px;
-        border:none;
-        font-size: 20px;  
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-        img{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 2px;
-            width: 18px;
-        }
+    width: 55px;
+    height: 35px;
+    padding: 10px;
+
+    background-color: $dark_100;
+    border: none;
+
+    img{
+        
+        width: 40%;
+        margin: 0;
     }
 }
+
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    img{
+        width: 45%;
+    }
+}
+
 
 
 

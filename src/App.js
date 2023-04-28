@@ -9,24 +9,25 @@ import Navbar from './components/Navbar/navbar';
 import NavbarAdm from './components/Navbar/navbar_adm';
 import NavbarMobile from './components/Navbar/mobile/navbar_mobile';
 import NavbarMobileAdm from './components/Navbar/mobile/navbar_mobile_adm';
-
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
     <div className="App">
-     
-   <Navbar/>
+    
+    {  /* <Navbar/>
+    <NavbarMobile/>
       <NavbarAdm/> 
-      <NavbarMobile/>
       <NavbarMobileAdm/>
-       <br/>
+      <br/>
       <Button/>
       <ButtonAdm/>
       <br/>
-      <Tag/>
-      <Stepper/> 
       <Myorders/>
       <Myorders_mobile/>
+      <Stepper/> 
+      <Tag/> */}
+      <Footer/>
     </div>
   );
 }

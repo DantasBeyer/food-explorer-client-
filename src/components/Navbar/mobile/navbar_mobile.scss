@@ -4,6 +4,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $dark_100;
+    background-color: $dark_700;
+    gap: 30px;
+    padding: 2px 15px ;
+    
+
+
+    
+}
+
+.hamburger{
+    width: 24px;
+    height: 18px;
+}
+
+/*  NAV - ADM - MOBILE */
+
+.navbar_mobile_adm_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $dark_700;
+    gap: 30px;
+    padding: 2px 15px ;
+    
 }
 
