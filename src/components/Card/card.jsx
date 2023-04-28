@@ -1,6 +1,6 @@
 import React from 'react'
 
-function car d() {
+function card() {
   return (
     <div>card</div>
   )
