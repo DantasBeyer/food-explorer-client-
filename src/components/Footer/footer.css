@@ -1,1 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");/*# sourceMappingURL=footer.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 15vh;
+  background-color: #00111A;
+  color: #FFFFFF;
+}/*# sourceMappingURL=footer.css.map */

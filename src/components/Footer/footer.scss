@@ -1,2 +1,12 @@
 @import '../../style/variables';
 
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15vh;
+    background-color: $dark_600;
+    color: $light_100;
+    
+}

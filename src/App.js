@@ -15,11 +15,11 @@ function App() {
   return (
     <div className="App">
     
-    <NavbarMobile/>
     {  /* <Navbar/>
- <NavbarAdm/> 
- <NavbarMobileAdm/>
-       <br/>
+    <NavbarMobile/>
+      <NavbarAdm/> 
+      <NavbarMobileAdm/>
+      <br/>
       <Button/>
       <ButtonAdm/>
       <br/>
