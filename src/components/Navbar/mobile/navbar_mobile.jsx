@@ -1,22 +1,25 @@
- import React from 'react'
- import hamburger from '../../../img/icons/hamburger.png'
- import './navbar_mobile.css'
- import logo from '../../../img/icons/poligon_logo.png'
+import React from 'react'
+import hamburger from '../../../img/icons/hamburger.png'
+import recept from '../../../img/icons/recept.png'
+import './navbar_mobile.css'
+import Logo from '../../Logo/logo'
+
  
- function navbar_mobile() {
-   return (
-     <div className='navbar_mobile_conteiner'>
-        <img src={hamburger} alt="" />
+function navbar_mobile() {
+  return (
+    <div className='navbar_mobile_conteiner'>
+      <img src={hamburger} alt="" />
 
-        <div className='logo_mobile'>
-            <img src={logo} alt="logo_mobile_img" />
-            food explorer
-        </div>
+    <div className='logo_mobile'>
+      <Logo/>
+    </div>
+
+    <img src={recept} alt="" />
 
 
-     
-     </div>
-   )
- }
- 
- export default navbar_mobile
+    
+    </div>
+  )
+}
+
+export default navbar_mobile
