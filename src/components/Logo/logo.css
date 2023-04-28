@@ -14,6 +14,7 @@
   width: 25px;
 }
 
+/* LOGO - ADM  */
 .logo_container_adm {
   display: flex;
   justify-content: center;
@@ -41,6 +42,32 @@
   display: flex;
   justify-content: flex-end;
   margin-top: -8px;
+  color: #82F3FF;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+/*  LOGO - ADM - MOBILE */
+.logo_adm_mobile_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logo_adm_mobile_container .logo_img {
+  width: 25px;
+}
+.logo_adm_mobile_container .logo_name {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+  margin: 0;
+}
+.logo_adm_mobile_container .logo_name_adm {
   color: #82F3FF;
   font-family: "Poppins", sans-serif;
   font-weight: regular;
