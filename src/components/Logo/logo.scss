@@ -73,6 +73,25 @@
     }
 
 }
+
+/* LOGO - FOOTER  */
+
+.logo_footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: $light_700;
+    @include roboto_big_bold;
+
+    img{
+        width: 25px;
+    }
+
+}
+
+
     
 
 

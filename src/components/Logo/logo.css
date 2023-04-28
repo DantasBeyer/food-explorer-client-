@@ -73,4 +73,20 @@
   font-weight: regular;
   font-size: 12px;
   line-height: 160%;
+}
+
+/* LOGO - FOOTER  */
+.logo_footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #4D585E;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+}
+.logo_footer_container img {
+  width: 25px;
 }/*# sourceMappingURL=logo.css.map */

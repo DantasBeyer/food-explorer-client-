@@ -1,7 +1,8 @@
 import React from 'react'
 import hamburger from '../../../img/icons/hamburger.png'
 import './navbar_mobile.css'
-import Logo from '../../Logo/logo'
+/* import Logo from '../../Logo/logo' */
+import LogoFooter from '../../Logo/logo_footer'
 import Myorders_mobile from '../../MyOrders/myorders_mobile'
 
  
@@ -11,7 +12,9 @@ function navbar_mobile() {
       <img className='hamburger' src={hamburger} alt="" />
 
     <div className='logo_mobile'>
-      <Logo/>
+    {  /* <Logo/> */}
+    <LogoFooter/>
+
     </div>
 
     <Myorders_mobile/>
