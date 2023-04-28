@@ -16,4 +16,17 @@
 .btn_container img {
   width: 20px;
   height: 20px;
+}
+
+/* Recept_mobile */
+.my_orders_mobile_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #00111A;
+}
+.my_orders_mobile_conteiner img {
+  width: 70%;
 }/*# sourceMappingURL=myorders.css.map */
