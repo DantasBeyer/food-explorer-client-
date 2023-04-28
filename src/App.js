@@ -10,6 +10,7 @@ import NavbarAdm from './components/Navbar/navbar_adm';
 import NavbarMobile from './components/Navbar/mobile/navbar_mobile';
 import NavbarMobileAdm from './components/Navbar/mobile/navbar_mobile_adm';
 import Footer from './components/Footer/footer';
+import Cards from './components/Cards/card'
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
       <Myorders/>
       <Myorders_mobile/>
       <Stepper/> 
-      <Tag/> */}
       <Footer/>
+      <Tag/> */}
+      <Cards/>
     </div>
   );
 }
