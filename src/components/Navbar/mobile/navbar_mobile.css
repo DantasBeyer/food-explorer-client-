@@ -3,5 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000405;
+  background-color: #001119;
+  gap: 30px;
+  padding: 2px 15px;
+}
+
+.hamburger {
+  width: 24px;
+  height: 18px;
 }/*# sourceMappingURL=navbar_mobile.css.map */
