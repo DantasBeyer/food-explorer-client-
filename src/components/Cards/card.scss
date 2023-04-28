@@ -1,8 +1,106 @@
 @import '../../style/variables';
 
 .card_container{
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
 
+    background-color: $dark_300 ;
+   
     width: 304px;
     height: 462px;
+    padding: 24px;
+    gap: 15px;
+    
+}
+
+.heart{
+   display: flex;
+   justify-content: end;
+   
+   
+    
+   img{
+   
+       width: 24px;
+    }
+
+}
+.hear:active{
+    
+}
+
+.dish{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+
+   #cardImg{
+       width: 176px;
+       height: 176px;
+       
+
+}
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    p{
+        
+        color: $light_100;
+        @include roboto_bigger_bold;
+        margin:0;
+
+    }
+
+}
+
+.sub_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    p{
+        text-align: center;
+        
+        color: $light_400;
+        @include roboto_smaller_regular;
+        margin:0;
+
+
+    }
+
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    p{
+        text-align: center;
+       
+        color: $blue_100;
+        @include roboto_biggest_regular;
+        margin:0;
+
+
+    }
+
+}
+
+.interaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
 }
