@@ -22,7 +22,7 @@ function card() {
 
       <div className='title'>
         <p>
-          Torradas de Parma >
+          Torradas de Parma 
         </p>
       </div>
 
