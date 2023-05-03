@@ -12,6 +12,7 @@ function card() {
   return (
     <div className='card_container'>
 
+    
       <div className='heart'>
         <img id='heart' src={heartImg} alt="hear_img" />
       </div>
@@ -22,7 +23,7 @@ function card() {
 
       <div className='title'>
         <p>
-          Torradas de Parma >
+          Torradas de Parma 
         </p>
       </div>
 

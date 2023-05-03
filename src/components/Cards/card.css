@@ -17,6 +17,9 @@
   width: 24px;
 }
 
+/* .hear:active{
+
+} */
 .dish {
   display: flex;
   justify-content: center;
@@ -75,4 +78,82 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* CARD - MOBILE  */
+@media screen and (max-width: 390px) {
+  .card_container {
+    background-color: #000204;
+    width: 210px;
+    height: 292px;
+    padding: 24px;
+  }
+  .card_container div:nth-child(-n+2) {
+    display: flex;
+  }
+  .heart {
+    position: absolute;
+    padding: 0 195px;
+  }
+  .heart img {
+    width: 14px;
+  }
+  /* .heart_mobile:active{
+
+  } */
+  .dish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dish #cardImg {
+    width: 88px;
+    height: 88px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title p {
+    color: #E1E1E6;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .sub_title {
+    display: none;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .price p {
+    text-align: center;
+    color: #82F3FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0;
+  }
+  .interaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* CARD - MOILE - ADM  */
+  .pencil_adm {
+    display: flex;
+    justify-content: end;
+  }
+  .pencil_adm #pencil {
+    width: 24px;
+  }
+  /* .heart:active{
+
+  } */
 }/*# sourceMappingURL=card.css.map */

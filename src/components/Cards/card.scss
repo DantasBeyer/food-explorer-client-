@@ -16,30 +16,21 @@
 .heart{
    display: flex;
    justify-content: end;
-   
-   
-    
    img{
-   
        width: 24px;
     }
-
 }
-.hear:active{
+/* .hear:active{
     
-}
+} */
 
 .dish{
    display: flex;
    justify-content: center;
    align-items: center;
-  
-
    #cardImg{
        width: 176px;
        height: 176px;
-       
-
 }
 
 }
@@ -49,9 +40,7 @@
     align-items: center;
     justify-content: center;
 
-    
     p{
-        
         color: $light_100;
         @include roboto_bigger_bold;
         margin:0;
@@ -64,8 +53,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
     p{
         text-align: center;
         
@@ -104,3 +91,128 @@
     
 
 }
+
+/* CARD - MOBILE  */
+
+@media screen and ( max-width: 390px){
+
+    .card_container{
+        background-color: $dark_300 ;
+        
+        width: 210px;
+        height: 292px;
+        padding: 24px;
+        
+
+    }
+
+    .card_container  div:nth-child(-n+2){
+            display: flex;
+            
+           
+           
+    }
+    
+    .heart{
+        position:absolute;
+        padding: 0 195px;
+        img{
+            
+            width: 14px;
+        }
+        
+    }
+    /* .heart_mobile:active{
+        
+    } */
+    
+    .dish{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        #cardImg{
+            width: 88px;
+            height: 88px;
+            
+            
+        }
+        
+    }
+    
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            
+            color: $light_300;
+            @include poppins_100_medium
+            
+        }
+        
+    }
+    .sub_title{
+        display: none;
+    }
+    
+    
+    
+    .price{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        p{
+            text-align: center;
+            
+            color: $blue_100;
+            @include roboto_small_regular;
+            margin:0;
+            
+            
+        }
+        
+    }
+    
+    .interaction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }
+    
+    /* CARD - MOILE - ADM  */
+    
+    
+    .pencil_adm{
+        display: flex;
+        justify-content: end;
+        
+        #pencil{
+            width: 24px;
+        }
+        
+    }
+    /* .heart:active{
+        
+    } */
+    
+}
+    
+    
+    
+
+
+
+
+
+
+
+
+

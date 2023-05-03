@@ -38,4 +38,11 @@
 .btn_container_adm img {
   width: 20px;
   height: 20px;
+}
+
+@media screen and (max-width: 390px) {
+  .btn {
+    width: 162px;
+    height: 32px;
+  }
 }/*# sourceMappingURL=button.css.map */

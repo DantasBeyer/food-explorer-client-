@@ -34,4 +34,10 @@ button:hover {
 
 button:active img {
   width: 45%;
+}
+
+@media screen and (max-width: 390px) {
+  #stepper_container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=stepper.css.map */
