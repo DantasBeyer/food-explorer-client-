@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-.btn_container {
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,21 +12,24 @@
   padding: 6px 20px;
   gap: 8px;
   border-radius: 5px;
+  width: 200px;
 }
-.btn_container img {
+.btn .receptImg {
   width: 20px;
   height: 20px;
 }
 
-/* Recept_mobile */
-.my_orders_mobile_conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  background-color: #00111A;
+.receptImgTwo {
+  display: none;
 }
-.my_orders_mobile_conteiner img {
-  width: 70%;
+
+/* My Orders --------------- MOBILE */
+@media screen and (max-width: 768px) {
+  .myorders_container .btn {
+    display: none;
+  }
+  .receptImgTwo {
+    display: flex;
+    width: 45px;
+  }
 }/*# sourceMappingURL=myorders.css.map */

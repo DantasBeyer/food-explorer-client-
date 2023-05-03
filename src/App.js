@@ -7,8 +7,8 @@ import Myorders from './components/MyOrders/myorders.jsx'
 import Myorders_mobile from './components/MyOrders/myorders_mobile.jsx'
 import Navbar from './components/Navbar/navbar';
 import NavbarAdm from './components/Navbar/navbar_adm';
-import NavbarMobile from './components/Navbar/mobile/navbar_mobile';
-import NavbarMobileAdm from './components/Navbar/mobile/navbar_mobile_adm';
+
+
 import Footer from './components/Footer/footer';
 import Cards from './components/Cards/card'
 
@@ -18,10 +18,10 @@ import CardsAdm from './components/Cards/card_adm'
 function App() {
   return (
     <div className="App">
-    {  /* <Navbar/>
-    <NavbarMobile/>
-      <NavbarAdm/> 
-      <NavbarMobileAdm/>
+    <NavbarAdm/> 
+
+    <Navbar/>
+    {  /* 
       <br/>
       <Button/>
       <ButtonAdm/>
@@ -32,9 +32,9 @@ function App() {
       <Footer/>
       <CardsMobile/>
       <CardsMobileAdm/>
+      <Cards/>
+      <CardsAdm/>
     <Tag/> */} 
-    <Cards/>
-    <CardsAdm/>
     </div>
   );
 }
