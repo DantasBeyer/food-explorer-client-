@@ -144,4 +144,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}/*# sourceMappingURL=card.css.map */
+}
+
+/* CARD - MOILE - ADM  */
+.pencil_mobile_adm {
+  display: flex;
+  justify-content: end;
+}
+.pencil_mobile_adm #pencil {
+  width: 24px;
+}
+
+/* .heart_mobile:active{
+
+} *//*# sourceMappingURL=card.css.map */

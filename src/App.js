@@ -13,6 +13,7 @@ import Footer from './components/Footer/footer';
 import Cards from './components/Cards/card'
 import CardsMobile from './components/Cards/mobile/card_mobile'
 import CardsAdm from './components/Cards/card_adm'
+import CardsMobileAdm from './components/Cards/mobile/card_mobile_adm'
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
       <Footer/>
       <CardsAdm/>
       <Cards/>
+      <CardsMobile/>
     <Tag/> */} 
-    <CardsMobile/>
+    <CardsMobileAdm/>
     </div>
   );
 }
