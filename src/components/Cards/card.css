@@ -80,7 +80,82 @@
   align-items: center;
 }
 
-/* CARD - MOBILE  */
+/* CARD -------------- ADM  */
+.card_container_adm {
+  display: flex;
+  flex-direction: column;
+  background-color: #000204;
+  width: 304px;
+  height: 462px;
+  padding: 24px;
+  gap: 15px;
+}
+
+.pencil_adm {
+  display: flex;
+  justify-content: end;
+}
+.pencil_adm img {
+  width: 24px;
+}
+
+/* .heart_mobile:active{
+
+} */
+.dish_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dish_adm #cardImg {
+  width: 176px;
+  height: 176px;
+}
+
+.title_adm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_adm p {
+  color: #E1E1E6;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: auto;
+}
+
+.sub_title_adm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_title_adm p {
+  text-align: center;
+  color: #C4C4CC;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+  line-height: 160% x;
+  margin: 0;
+}
+
+.price_adm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price_adm p {
+  text-align: center;
+  color: #82F3FF;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 32px;
+  line-height: 160%;
+  margin: 0;
+}
+
+/* CARD -------------------------- MOBILE  */
 @media screen and (max-width: 390px) {
   .card_container {
     background-color: #000204;
@@ -145,15 +220,69 @@
     align-items: center;
     flex-direction: column;
   }
-  /* CARD - MOILE - ADM  */
-  .pencil_adm {
+  /* CARD ------- MOBILE ------ ADM  */
+  .card_container_adm {
+    background-color: #000204;
+    width: 210px;
+    height: 292px;
+    padding: 24px;
+  }
+  .card_container_adm div:nth-child(-n+2) {
     display: flex;
-    justify-content: end;
   }
-  .pencil_adm #pencil {
-    width: 24px;
+  .pencil_adm {
+    position: absolute;
+    padding: 0 195px;
   }
-  /* .heart:active{
+  .pencil_adm img {
+    width: 14px;
+  }
+  /* .heart_mobile:active{
 
   } */
+  .dish_adm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+  }
+  .dish_adm #cardImg {
+    width: 88px;
+    height: 88px;
+  }
+  .title_adm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title_adm p {
+    color: #E1E1E6;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .sub_title_adm {
+    display: none;
+  }
+  .price_adm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .price_adm p {
+    text-align: center;
+    color: #82F3FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0;
+  }
+}
+.interaction_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=card.css.map */
