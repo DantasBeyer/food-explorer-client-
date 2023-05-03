@@ -4,20 +4,20 @@
 display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;    
     
-      
     width: 100vw;
     height: 65px;
     background-color: $dark_600;
 
-    .img{
+    .hamburgerImg{
+        display: none;
+    }
+    .imgExit{
         width: 30px;
     }
 
 }
-
-
 
 .logo{
     display: flex;
@@ -40,8 +40,6 @@ display: flex;
 }
 
 
-
-
 #navbar_container_adm{
 display: flex;
     justify-content: center;
@@ -58,8 +56,6 @@ display: flex;
     }
 
 }
-
-
 
 .logo_adm{
     display: flex;
@@ -86,7 +82,38 @@ display: flex;
 
 
 
+/* Nav --------------- MOBILE */
 
+@media screen  and (max-width: 767px){
+    #navbar_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+        
+        width: 100vw;
+        height: 65px;
+        background-color: $dark_600;
+
+            .hamburgerImg{
+                display: flex;
+                width: 30px;
+            }
+            .img{
+                width: 30px;
+            }
+        
+        }
+        
+        .search_bar{
+            display: none;
+        }
+        .imgExit{
+            display: none;
+        }
+}
 
 
   

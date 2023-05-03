@@ -1,6 +1,6 @@
 @import '../../style/variables';
 
-   .btn_container{
+   .btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,28 +12,33 @@
     padding: 6px 20px;
     gap: 8px;
     border-radius: 5px;
+    width: 200px;
 
-    img{
+    .receptImg{
         width: 20px;
         height: 20px;
     }
+    
+}
+.receptImgTwo{
+    display: none;
+}
 
-   }
 
-/* Recept_mobile */
-.my_orders_mobile_conteiner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    width: 50px;
-    height: 50px;
-    background-color: $dark_600;
+/* My Orders --------------- MOBILE */
 
-    img{
-        width: 70%;
+@media screen and (max-width: 768px){
+    .myorders_container{
+        .btn{
+            display: none;
+        }
     }
-            
+       
+       .receptImgTwo{
+        display: flex;
+        width: 45px;
+    }
 }
 
 
