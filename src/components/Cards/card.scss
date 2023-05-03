@@ -105,5 +105,99 @@
 
 }
 
-/* CARD - ADM  */
+/* CARD - MOBILE  */
+
+.card_container_mobile{
+    display: flex;
+    flex-direction: column;
+
+    background-color: $dark_300 ;
+   
+    width: 210px;
+    height: 292px;
+    padding: 24px;
+    
+    
+}
+
+.heart_mobile{
+   display: flex;
+   justify-content: end;
+   
+   
+    
+   img{
+   
+       width: 14px;
+    }
+
+}
+/* .heart_mobile:active{
+    
+} */
+
+.dish_mobile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+
+   #cardImg{
+       width: 88px;
+       height: 88px;
+       
+
+}
+
+}
+
+.title_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    p{
+        
+        color: $light_300;
+        @include poppins_100_medium
+
+    }
+
+}
+
+
+
+.price_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    p{
+        text-align: center;
+       
+        color: $blue_100;
+        @include roboto_biggest_regular;
+        margin:0;
+
+
+    }
+
+}
+
+.interaction_mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    
+    
+
+}
+
+
+
 

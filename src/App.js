@@ -11,6 +11,7 @@ import NavbarMobile from './components/Navbar/mobile/navbar_mobile';
 import NavbarMobileAdm from './components/Navbar/mobile/navbar_mobile_adm';
 import Footer from './components/Footer/footer';
 import Cards from './components/Cards/card'
+import CardsMobile from './components/Cards/mobile/card_mobile'
 import CardsAdm from './components/Cards/card_adm'
 
 function App() {
@@ -29,9 +30,10 @@ function App() {
       <Myorders_mobile/>
       <Stepper/> 
       <Footer/>
-      <Cards/>
-      <Tag/> */}
       <CardsAdm/>
+      <Cards/>
+    <Tag/> */} 
+    <CardsMobile/>
     </div>
   );
 }

@@ -80,4 +80,68 @@
   align-items: center;
 }
 
-/* CARD - ADM  *//*# sourceMappingURL=card.css.map */
+/* CARD - MOBILE  */
+.card_container_mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #000204;
+  width: 210px;
+  height: 292px;
+  padding: 24px;
+}
+
+.heart_mobile {
+  display: flex;
+  justify-content: end;
+}
+.heart_mobile img {
+  width: 14px;
+}
+
+/* .heart_mobile:active{
+
+} */
+.dish_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dish_mobile #cardImg {
+  width: 88px;
+  height: 88px;
+}
+
+.title_mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_mobile p {
+  color: #E1E1E6;
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.price_mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price_mobile p {
+  text-align: center;
+  color: #82F3FF;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 32px;
+  line-height: 160%;
+  margin: 0;
+}
+
+.interaction_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=card.css.map */
