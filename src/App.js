@@ -32,10 +32,10 @@ function App() {
       <Stepper/> 
       <Footer/>
       <CardsAdm/>
-      <Cards/>
       <CardsMobile/>
+      <CardsMobileAdm/>
     <Tag/> */} 
-    <CardsMobileAdm/>
+    <Cards/>
     </div>
   );
 }

@@ -40,6 +40,12 @@ button:active{
     }
 }
 
+@media screen and (max-width: 390px) {
+    #stepper_container{
+        width: 100%;
+    }
+}
+
 
 
 
