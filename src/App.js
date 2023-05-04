@@ -4,7 +4,7 @@ import ButtonAdm from './components/Button/buttonAdm';
 import Tag from './components/Tag/tag'
 import Stepper from './components/Stepper/stepper';
 import Myorders from './components/MyOrders/myorders.jsx'
-import Myorders_mobile from './components/MyOrders/myorders_mobile.jsx'
+
 import Navbar from './components/Navbar/navbar';
 import NavbarAdm from './components/Navbar/navbar_adm';
 
