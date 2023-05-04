@@ -48,30 +48,19 @@
 }
 
 /*  LOGO - ADM - MOBILE */
-.logo_adm_mobile_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-    .logo_img{
-        width: 25px;
+@media screen and (max-width: 768px ){
+    .logo_container_adm{
        
+        
+        section{
+            display: flex;
+            justify-self: center;
+            align-items: baseline;
+            flex-direction: row;
+            gap: 10px;
+           
+        }
     }
-
-    .logo_name{
-        color: $light_100;
-        @include roboto_big_bold;
-        margin: 0;
-    }
-
-    .logo_name_adm{
-       
-       
-        color: $blue_100;
-        @include roboto_smallest_regular;
-    }
-
 }
 
 /* LOGO - FOOTER  */
@@ -92,7 +81,7 @@
 
 }
 
-/* LOGO MOBILE */
+
     
 
 

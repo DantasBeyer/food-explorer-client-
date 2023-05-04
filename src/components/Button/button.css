@@ -40,9 +40,14 @@
   height: 20px;
 }
 
+/* BUTTON -----------------------Mobile */
 @media screen and (max-width: 390px) {
   .btn {
     width: 162px;
     height: 32px;
+  }
+  /* BUTTON -----------------------Mobile-------- ADM */
+  .btn_container_adm {
+    display: none;
   }
 }/*# sourceMappingURL=button.css.map */
