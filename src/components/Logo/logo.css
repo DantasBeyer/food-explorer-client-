@@ -50,31 +50,15 @@
 }
 
 /*  LOGO - ADM - MOBILE */
-.logo_adm_mobile_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+@media screen and (max-width: 768px) {
+  .logo_container_adm section {
+    display: flex;
+    justify-self: center;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 10px;
+  }
 }
-.logo_adm_mobile_container .logo_img {
-  width: 25px;
-}
-.logo_adm_mobile_container .logo_name {
-  color: #FFFFFF;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 160%;
-  margin: 0;
-}
-.logo_adm_mobile_container .logo_name_adm {
-  color: #82F3FF;
-  font-family: "Poppins", sans-serif;
-  font-weight: regular;
-  font-size: 12px;
-  line-height: 160%;
-}
-
 /* LOGO - FOOTER  */
 .logo_footer_container {
   display: flex;
@@ -89,6 +73,4 @@
 }
 .logo_footer_container img {
   width: 25px;
-}
-
-/* LOGO MOBILE *//*# sourceMappingURL=logo.css.map */
+}/*# sourceMappingURL=logo.css.map */

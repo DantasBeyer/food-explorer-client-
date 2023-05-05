@@ -2,7 +2,7 @@ import './style/input.css'
 import Button from './components/Button/button';
 import ButtonAdm from './components/Button/buttonAdm';
 import Tag from './components/Tag/tag'
-import Stepper from './components/Stepper/stepper';
+import Stepper from './components/Stepper/Stepper';
 import Myorders from './components/MyOrders/myorders.jsx'
 
 import Navbar from './components/Navbar/navbar';
@@ -28,13 +28,13 @@ function App() {
       <br/>
       <Myorders/>
       <Myorders_mobile/>
-      <Stepper/> 
       <Footer/>
       <CardsMobile/>
       <CardsMobileAdm/>
       <Cards/>
       <CardsAdm/>
     <Tag/> */} 
+    <Stepper/> 
     </div>
   );
 }

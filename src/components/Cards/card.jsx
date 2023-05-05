@@ -3,7 +3,7 @@ import './card.css'
 import dishImg from '../../img/dishes/parma.png'
 import heartImg from '../../img/icons/heart.png'
 import heartClickedImg from '../../img/icons/heart_clicked.png'
-import Stepper from '../Stepper/stepper'
+import Stepper from '../Stepper/Stepper'
 import Button from '../Button/button'
 
 

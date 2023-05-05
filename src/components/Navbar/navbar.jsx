@@ -14,7 +14,7 @@ function navbar() {
       <div className='myorders'>
         <Myorders/>
       </div>
-      <img className='imgExit' src={exitImg} alt="logout_img" />
+      <img className='exitImg' src={exitImg} alt="logout_img" />
 
     </div>
   )
