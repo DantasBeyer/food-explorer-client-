@@ -1,21 +1,33 @@
 import React from 'react'
-import './stepper.css'
+import './Stepper.css'
 import minusImg from '../../img/icons/minus.png'
 import plusImg from '../../img/icons/plus.png'
+import { useState } from 'react'
 
 
-function stepper() {
+function Stepper() {
+  const [count, setCount] = useState (0);
+
+  const increcementCount = () => {
+    setCount(count + 1)
+  };
+
+  const decrementCount = () => {
+    setCount (count - 1)
+  };
+
+
   return (
       <div id='stepper_container'>
-        <button id='minus'>
-            <img src={minusImg} alt="minus_img" />
+        <button onClick={decrementCount} id='minus'>
+            <img  src={minusImg} alt="minus_img" />
         </button>
-            01
-        <button id='plus'>
+            {count}
+        <button onClick={increcementCount} id='plus'>
             <img src={plusImg} alt="plus_img" />
         </button>
       </div>
   )
 }
 
-export default stepper
+export default Stepper;
