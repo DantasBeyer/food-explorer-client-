@@ -1,5 +1,5 @@
 import React from 'react'
-import './card.css'
+import './Card.css'
 import dishImg from '../../img/dishes/parma.png'
 import pencil from '../../img/icons/pencil.png'
 

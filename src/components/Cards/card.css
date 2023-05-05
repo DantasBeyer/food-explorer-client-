@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: #000204;
-  width: 304px;
+  width: 300px;
   height: 462px;
   padding: 24px;
   gap: 15px;
@@ -26,8 +26,8 @@
   align-items: center;
 }
 .dish #cardImg {
-  width: 176px;
   height: 176px;
+  width: 176px;
 }
 
 .title {
@@ -108,8 +108,8 @@
   align-items: center;
 }
 .dish_adm #cardImg {
-  width: 176px;
   height: 176px;
+  width: 176px;
 }
 
 .title_adm {
@@ -182,8 +182,8 @@
     align-items: center;
   }
   .dish #cardImg {
-    width: 88px;
     height: 88px;
+    width: 88px;
   }
   .title {
     display: flex;
@@ -285,4 +285,4 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}/*# sourceMappingURL=card.css.map */
+}/*# sourceMappingURL=Card.css.map */

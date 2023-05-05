@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 92px;
-  height: 48px;
-  cursor: pointer;
+.include {
   background-color: #750310;
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
@@ -13,14 +7,18 @@
   font-size: 14px;
   line-height: 24px;
   border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
 }
-.btn:hover {
+.include:hover {
   background-color: #92000E;
 }
-.btn:active {
+.include:active {
   background-color: #AB222E;
 }
 
+/* BUTTON -------------------- ADM  */
 .btn_container_adm {
   display: flex;
   justify-content: center;
@@ -43,11 +41,11 @@
 /* BUTTON -----------------------Mobile */
 @media screen and (max-width: 390px) {
   .btn {
-    width: 162px;
+    width: 172px;
     height: 32px;
   }
-  /* BUTTON -----------------------Mobile-------- ADM */
+  /* BUTTON ----------Mobile-------- ADM */
   .btn_container_adm {
     display: none;
   }
-}/*# sourceMappingURL=button.css.map */
+}/*# sourceMappingURL=Button.css.map */

@@ -1,18 +1,16 @@
 import React from 'react'
-import './card.css'
+import './Card.css'
 import dishImg from '../../img/dishes/parma.png'
 import heartImg from '../../img/icons/heart.png'
 import heartClickedImg from '../../img/icons/heart_clicked.png'
 import Stepper from '../Stepper/Stepper'
-import Button from '../Button/button'
+import Button from '../Button/Button'
 
 
 
 function card() {
   return (
     <div className='card_container'>
-
-    
       <div className='heart'>
         <img id='heart' src={heartImg} alt="hear_img" />
       </div>
@@ -43,8 +41,6 @@ function card() {
         <Stepper/>
         <Button/>
       </div>
-      
-
     </div>
   )
 }
