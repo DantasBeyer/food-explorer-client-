@@ -6,7 +6,7 @@
 
     background-color: $dark_300 ;
    
-    width: 304px;
+    width: 300px;
     height: 462px;
     padding: 24px;
     gap: 15px;
@@ -29,8 +29,7 @@
    justify-content: center;
    align-items: center;
    #cardImg{
-       width: 176px;
-       height: 176px;
+      @include size_200
 }
 
 }
@@ -87,7 +86,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     
 
 }
@@ -126,8 +124,7 @@
     
     
     #cardImg{
-        width: 176px;
-        height: 176px;
+        @include size_200
     }
     
 }
@@ -208,10 +205,7 @@
         
         
         #cardImg{
-            width: 88px;
-            height: 88px;
-            
-            
+            @include size_100 
         }
         
     }

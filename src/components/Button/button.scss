@@ -1,18 +1,17 @@
 @import "../../style/variables";
 
-.btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 92px;
-    height: 48px;
-    
-    cursor: pointer;
+
+
+.include{
     background-color: $red_100;
     color: $light_100;
     @include poppins_100_medium;
     border-radius: 5px;
+    cursor: pointer;
+    width: 120px ;
+    height: 40px;
+    
+    
     
     &:hover{
         background-color: $red_200;
@@ -23,7 +22,7 @@
 }
 
 
-
+/* BUTTON -------------------- ADM  */
    .btn_container_adm{
     display: flex;
     justify-content: center;
@@ -48,11 +47,11 @@
 
    @media screen and (max-width: 390px) {
     .btn{
-    width: 162px;
+    width: 172px;
     height: 32px;
     }
     
-/* BUTTON -----------------------Mobile-------- ADM */
+/* BUTTON ----------Mobile-------- ADM */
 .btn_container_adm{
     display: none;
     

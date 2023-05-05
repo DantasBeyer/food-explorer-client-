@@ -1,14 +1,14 @@
 import React from 'react'
-import "./button.css"
+import "./Button.css"
 
 
-function  button() {
+function  Button() {
 
   return (
     <div id='btn_container'>
-        <button  className='btn'>include</button>
+        <button  className='include'>include</button>
     </div>
   )
 }
 
-export default  button 
+export default  Button;

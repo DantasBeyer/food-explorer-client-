@@ -1,7 +1,7 @@
 import React from 'react'
-import './button.css'
+import './Button.css'
 
-function buttonAdm() {
+function ButtonAdm() {
   return (
     <div className='btn_container_adm'>
         New Dishes
@@ -9,4 +9,4 @@ function buttonAdm() {
   )
 }
 
-export default buttonAdm
+export default ButtonAdm

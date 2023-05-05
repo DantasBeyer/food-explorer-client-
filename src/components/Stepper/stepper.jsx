@@ -18,15 +18,15 @@ function Stepper() {
 
 
   return (
-      <div id='stepper_container'>
-        <button onClick={decrementCount} id='minus'>
-            <img  src={minusImg} alt="minus_img" />
-        </button>
-            {count}
-        <button onClick={increcementCount} id='plus'>
-            <img src={plusImg} alt="plus_img" />
-        </button>
-      </div>
+    <div id='stepper_container'>
+      <button onClick={decrementCount} id='minus'>
+          <img  src={minusImg} alt="minus_img" />
+      </button>
+          {count}
+      <button onClick={increcementCount} id='plus'>
+          <img src={plusImg} alt="plus_img" />
+      </button>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import './navbar.css'
 import Logo_adm from '../Logo/logo_adm'
 import exitImg from '../../img/icons/logout.png'
 import hamburgerImg from '../../img/icons/hamburger.png'
-import ButtonAdm from '../Button/buttonAdm'
+import ButtonAdm from '../Button/ButtonAdm'
 
 
 function navbarAdm() {
