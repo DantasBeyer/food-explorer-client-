@@ -1,9 +1,9 @@
 import React from 'react'
-import './myorders.css'
+import './Myorders.css'
 import receptImg from '../../img/icons/recept.png'
 import receptImgTwo from '../../img/icons/recept_mobile.png'
 
-function myorders() {
+function Myorders() {
   return (
       <div className='myorders_container'>
         <button className='btn' >
@@ -18,4 +18,4 @@ function myorders() {
   )
 }
 
-export default myorders
+export default Myorders

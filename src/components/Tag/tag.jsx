@@ -1,7 +1,7 @@
 import React from 'react'
-import './tag.css'
+import './Tag.css'
 
-function tag() {
+function Tag() {
   return (
     <div id='tag_container'>
         ingredients
@@ -9,4 +9,4 @@ function tag() {
   )
 }
 
-export default tag
+export default Tag

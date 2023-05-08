@@ -1,8 +1,8 @@
 import React from 'react'
-import './footer.css'
-import LogoFooter from '../Logo/logo_footer'
+import './Footer.css'
+import LogoFooter from '../Logo/Logo_footer'
 
-function footer() {
+function Footer() {
   return (
     <div className='footer_container'>
 
@@ -14,4 +14,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer
