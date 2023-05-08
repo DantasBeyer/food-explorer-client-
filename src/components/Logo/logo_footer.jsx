@@ -1,8 +1,8 @@
 import React from 'react'
 import logoFooterImg from '../../img/icons/poligon_logo_grey.png'
+import './Logo.css'
 
-
-function logo_footer() {
+function Logo_footer() {
   return (
     <div className='logo_footer_container'>
         <img src={logoFooterImg} alt="" />
@@ -11,4 +11,4 @@ function logo_footer() {
   )
 }
 
-export default logo_footer
+export default Logo_footer

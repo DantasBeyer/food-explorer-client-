@@ -1,8 +1,8 @@
 import React from 'react'
 import logo_img from '../../img/icons/poligon_logo.png'
-import './logo.css'
+import './Logo.css'
 
-function logo() {
+function Logo() {
   return (
     <div className='logo_container_adm'>
         <div className='logo_img'>
@@ -19,4 +19,4 @@ function logo() {
   )
 }
 
-export default logo
+export default Logo

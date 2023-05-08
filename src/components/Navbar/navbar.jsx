@@ -1,11 +1,11 @@
 import React from 'react'
-import './navbar.css'
-import Myorders from '../MyOrders/myorders'
+import './Navbar.css'
+import Myorders from '../MyOrders/Myorders'
 import exitImg from '../../img/icons/logout.png'
-import Logo from '../Logo/logo'
+import Logo from '../Logo/Logo'
 import hamburgerImg from '../../img/icons/hamburger.png'
 
-function navbar() {
+function Navbar() {
   return (
     <div id='navbar_container'>
     <img className='hamburgerImg' src={hamburgerImg} alt="hamburger_img" />
@@ -20,4 +20,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
