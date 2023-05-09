@@ -6,7 +6,7 @@
   justify-content: space-around;
   width: 100vw;
   height: 65px;
-  background-color: #00111A;
+  background-color: #00111a;
 }
 #navbar_container .hamburgerImg {
   display: none;
@@ -21,7 +21,7 @@
   gap: 10px;
 }
 .logo p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -29,9 +29,9 @@
 }
 
 .search_bar {
-  background-color: #0D1D25;
+  background-color: #0d1d25;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 30%;
   height: 40%;
   border-radius: 5px;
@@ -45,7 +45,7 @@
   justify-content: space-around;
   width: 100vw;
   height: 65px;
-  background-color: #00111A;
+  background-color: #00111a;
 }
 #navbar_container_adm .exitImgAdm {
   width: 30px;
@@ -57,7 +57,7 @@
   gap: 10px;
 }
 .logo_adm p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -65,9 +65,9 @@
 }
 
 .search_bar_adm {
-  background-color: #0D1D25;
+  background-color: #0d1d25;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 30%;
   height: 40%;
   border-radius: 5px;
@@ -86,7 +86,7 @@
     justify-content: space-around;
     width: 100vw;
     height: 65px;
-    background-color: #00111A;
+    background-color: #00111a;
   }
   #navbar_container .hamburgerImg {
     display: flex;

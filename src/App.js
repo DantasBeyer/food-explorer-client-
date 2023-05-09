@@ -1,23 +1,21 @@
-import './style/input.css'
-import Button from './components/Button/Button';
-import ButtonAdm from './components/Button/ButtonAdm';
-import Tag from './components/Tag/Tag'
-import Stepper from './components/Stepper/Stepper';
-import Myorders from './components/MyOrders/Myorders.jsx'
-import Navbar from './components/Navbar/Navbar';
-import NavbarAdm from './components/Navbar/Navbar_adm';
-import Footer from './components/Footer/Footer';
-import Cards from './components/Cards/Card'
-import CardsAdm from './components/Cards/Card_adm'
-import Dishes from './components/Pages/Details.jsx';
-
+import "./style/input.css";
+import Button from "./components/Button/Button";
+import ButtonAdm from "./components/Button/ButtonAdm";
+import Tag from "./components/Tag/Tag";
+import Stepper from "./components/Stepper/Stepper";
+import Myorders from "./components/MyOrders/Myorders.jsx";
+import Navbar from "./components/Navbar/Navbar";
+import NavbarAdm from "./components/Navbar/Navbar_adm";
+import Footer from "./components/Footer/Footer";
+import Cards from "./components/Cards/Card";
+import CardsAdm from "./components/Cards/Card_adm";
+import Dishes from "./components/Details/Details.jsx";
 
 function App() {
   return (
     <div className="App">
-    
-    <Dishes/>
-    {  /* 
+      <Dishes />
+      {/* 
     <NavbarAdm/> 
     <Navbar/>
   
@@ -33,7 +31,7 @@ function App() {
       <Stepper/> 
       <CardsAdm/>
       <Cards/>
-    <Tag/> */} 
+    <Tag/> */}
     </div>
   );
 }

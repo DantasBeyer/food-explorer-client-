@@ -1,145 +1,149 @@
 // Colors
-$light_100 : #FFFFFF;
-$light_200 : #FFFAF1;
-$light_300 : #E1E1E6;
-$light_400 : #C4C4CC;
-$light_500 : #7C7C8A;
-$light_600 : #76797B;
-$light_700 : #4D585E;
+$light_100: #ffffff;
+$light_200: #fffaf1;
+$light_300: #e1e1e6;
+$light_400: #c4c4cc;
+$light_500: #7c7c8a;
+$light_600: #76797b;
+$light_700: #4d585e;
 
-$dark_100 : #000405;
-$dark_200 : #00070A;
-$dark_300 : #000204;
-$dark_400 : #000A0F;
-$dark_500 : #000C12;
-$dark_600 : #00111A;
-$dark_700 : #001119;
-$dark_800 : #0D161B;
-$dark_900 : #0D1D25;
-$dark_1000 : #192227;
+$dark_100: #000405;
+$dark_200: #00070a;
+$dark_300: #000204;
+$dark_400: #000a0f;
+$dark_500: #000c12;
+$dark_600: #00111a;
+$dark_700: #001119;
+$dark_800: #0d161b;
+$dark_900: #0d1d25;
+$dark_1000: #192227;
 
-$gradint_100 : linear-gradient(90deg, rgba(0, 10, 15, 0.272541) 0%, #000A0F 100%);
-$gradint_200 : linear-gradient(180deg, #091E26 0%, #00131C 100%);
+$gradint_100: linear-gradient(
+  90deg,
+  rgba(0, 10, 15, 0.272541) 0%,
+  #000a0f 100%
+);
+$gradint_200: linear-gradient(180deg, #091e26 0%, #00131c 100%);
 
-$red_100 : #750310;
-$red_200 : #92000E;
-$red_300 : #AB222E;
-$red_400 : #AB4D55;
+$red_100: #750310;
+$red_200: #92000e;
+$red_300: #ab222e;
+$red_400: #ab4d55;
 
-$yelow : #FBA94C;
-$green : #04D361;
-$blue_100 : #82F3FF;
-$blue_200 : #065E7C;
+$yelow: #fba94c;
+$green: #04d361;
+$blue_100: #82f3ff;
+$blue_200: #065e7c;
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-@mixin roboto_smallest_regular{
-    font-family: 'Poppins', sans-serif;
-    font-weight: regular;
-    font-size: 12px;
-    line-height: 160%;
+@mixin roboto_smallest_regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 160%;
 }
-@mixin roboto_smaller_regular{
-    font-family: 'Poppins', sans-serif;
-    font-weight: regular;
-    font-size: 14px;
-    line-height: 160%x;
+@mixin roboto_smaller_regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+  line-height: 160%x;
 }
 @mixin roboto_smaller_bold {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 160%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 160%;
 }
 @mixin roboto_small_spaced {
-    font-family: 'Poppins', sans-serif;
-    font-weight: regular;
-    font-size: 16px;
-    line-height: 160%;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 160%;
 }
 @mixin roboto_small_regular {
-    font-family: 'Poppins', sans-serif;
-    font-weight: regular;
-    font-size: 16px;
-    line-height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 100%;
 }
 @mixin roboto_big_bold {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 160%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
 }
 @mixin roboto_bigger_bold {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: auto;
 }
 @mixin roboto_biggest_regular {
-    font-family: 'Poppins', sans-serif;
-    font-weight: regular;
-    font-size: 32px;
-    line-height: 160%;
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 32px;
+  line-height: 160%;
 }
 @mixin roboto_giant_regular {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: auto;
 }
-@mixin poppins_100_medium{
-    font-family: 'Poppins', sans-serif;
-    font-weight: medium;
-    font-size: 14px;
-    line-height: 24px;
+@mixin poppins_100_medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 24px;
 }
-@mixin poppins_200_medium{
-    font-family: 'Poppins', sans-serif;
-    font-weight: medium;
-    font-size: 20px;
-    line-height: 160%;
+@mixin poppins_200_medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 160%;
 }
-@mixin poppins_300_medium{
-    font-family: 'Poppins', sans-serif;
-    font-weight: medium;
-    font-size: 24px;
-    line-height: 140%;
+@mixin poppins_300_medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 140%;
 }
-@mixin poppins_300_regular{
-    font-family: 'Poppins', sans-serif;
-    font-weight: regular;
-    font-size: 24px;
-    line-height: 140%;
+@mixin poppins_300_regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 24px;
+  line-height: 140%;
 }
-@mixin poppins_400_medium{
-    font-family: 'Poppins', sans-serif;
-    font-weight: medium;
-    font-size: 32px;
-    line-height: 140%;
+@mixin poppins_400_medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 32px;
+  line-height: 140%;
 }
-@mixin poppins_500_medium{
-    font-family: 'Poppins', sans-serif;
-    font-weight: medium;
-    font-size: 40px;
-    line-height: 140%;
+@mixin poppins_500_medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 40px;
+  line-height: 140%;
 }
 
 // Dishes Size
 
 @mixin size_100 {
-    height: 88px;
-    width: 88px;
+  height: 88px;
+  width: 88px;
 }
 @mixin size_200 {
-    height: 176px;
-    width: 176px;
+  height: 176px;
+  width: 176px;
 }
 @mixin size_300 {
-    height: 264px;
-    width: 264px;
+  height: 264px;
+  width: 264px;
 }
 @mixin size_400 {
-    height: 389px;
-    width: 389px;
+  height: 389px;
+  width: 389px;
 }
