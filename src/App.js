@@ -4,24 +4,23 @@ import ButtonAdm from './components/Button/ButtonAdm';
 import Tag from './components/Tag/Tag'
 import Stepper from './components/Stepper/Stepper';
 import Myorders from './components/MyOrders/Myorders.jsx'
-
 import Navbar from './components/Navbar/Navbar';
 import NavbarAdm from './components/Navbar/Navbar_adm';
-
-
 import Footer from './components/Footer/Footer';
 import Cards from './components/Cards/Card'
-
 import CardsAdm from './components/Cards/Card_adm'
+import Dishes from './components/Pages/Details.jsx';
 
 
 function App() {
   return (
     <div className="App">
-    <NavbarAdm/> 
-
-    <Navbar/>
+    
+    <Dishes/>
     {  /* 
+    <NavbarAdm/> 
+    <Navbar/>
+  
       <br/>
       <Button/>
       <ButtonAdm/>
@@ -33,8 +32,8 @@ function App() {
       <CardsMobileAdm/>
       <Stepper/> 
       <CardsAdm/>
+      <Cards/>
     <Tag/> */} 
-    <Cards/>
     </div>
   );
 }
