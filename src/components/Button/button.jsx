@@ -1,14 +1,12 @@
-import React from 'react'
-import "./Button.css"
+import React from "react";
+import "./Button.css";
 
-
-function  Button() {
-
+function Button() {
   return (
-    <div id='btn_container'>
-        <button  className='include'>include</button>
+    <div id="btn_container">
+      <button className="include">include</button>
     </div>
-  )
+  );
 }
 
-export default  Button;
+export default Button;
