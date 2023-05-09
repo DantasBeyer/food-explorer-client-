@@ -1,0 +1,67 @@
+@import "../../style/variables";
+
+.details_container {
+  background-color: $dark_400;
+}
+
+.img {
+  @include size_400;
+}
+
+.btn_back {
+  display: flex;
+  justify-content: start;
+  padding-left: 5%;
+  color: $light_100;
+  @include roboto_smaller_bold;
+  width: 100%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 50%;
+
+  h1 {
+    display: flex;
+    justify-content: start;
+    @include poppins_400_medium;
+    color: $light_300;
+    width: 100%;
+    margin-bottom: -3px;
+  }
+  p {
+    display: flex;
+    justify-content: start;
+    @include poppins_200_medium;
+    color: $light_300;
+    width: 100%;
+  }
+
+  .tags {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .order {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
