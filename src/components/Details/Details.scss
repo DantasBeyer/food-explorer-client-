@@ -1,36 +1,48 @@
 @import "../../style/variables";
-
-.details_container {
+* {
+  margin: 5px;
   background-color: $dark_400;
 }
 
-.img {
-  @include size_400;
+.details_container {
+  width: 100vw;
 }
 
 .btn_back {
   display: flex;
   justify-content: start;
-  padding-left: 5%;
+  align-items: center;
   color: $light_100;
   @include roboto_smaller_bold;
-  width: 100%;
+
+  margin-left: 5%;
+  gap: 10px;
+
+  img {
+    width: 10px;
+    height: 15px;
+  }
 }
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
-  gap: 20px;
-}
+  gap: 2%;
 
+  width: 95%;
+  margin: 20px;
+  /* overflow:auto; */
+}
+.img {
+  width: 40%;
+}
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 10px;
-  width: 50%;
+  width: 60%;
 
   h1 {
     display: flex;
@@ -50,6 +62,7 @@ main {
 
   .tags {
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: center;
     width: 100%;
