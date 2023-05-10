@@ -5,8 +5,6 @@
 }
 
 .details_container {
- 
-  
 }
 
 .btn_back {
@@ -28,9 +26,8 @@
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 2%;
 
   width: 90%;
   margin: 5%;
@@ -44,23 +41,24 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 60%;
+  width: 50%;
+
   /* border: 2px solid rgb(233, 228, 228); */
 
   h1 {
     display: flex;
     justify-content: start;
     @include poppins_400_medium;
-    color: $light_300;
+    color: $light_400;
     width: 100%;
     margin-bottom: -3px;
   }
   p {
     @include poppins_200_medium;
-    color: $light_300;
+    color: $light_500;
 
-    max-width: 60%;
-    margin-left: -40%;
+    max-width: 59%;
+    margin-left: -39%;
   }
 
   .tags {
@@ -102,18 +100,11 @@ main {
   main {
     display: flex;
     flex-direction: column;
-    margin: 5%;
-
-    .img {
-      @include size_200;
-      margin: 2%;
-    }
   }
 
   .content {
     display: flex;
-    justify-content: center;
-
+    width: 100%;
     gap: 10px;
 
     h1,
@@ -125,8 +116,6 @@ main {
       text-align: center;
       width: 100%;
       margin: 0.2%;
-    
-      
     }
     h1 {
       @include roboto_bigger_bold;
