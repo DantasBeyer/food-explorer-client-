@@ -78,3 +78,42 @@ main {
     margin-top: 10px;
   }
 }
+
+/* ------- MOBILE---------- */
+
+@media screen and (max-width: 767px) {
+  .details_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+    .btn_back {
+    @include roboto_big_bold;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    
+  }
+
+  .content {
+    
+
+    h1,
+    p,
+    .tags,
+    .order {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 150%;
+      border: 2px solid red;
+    }
+
+    
+  }
+}

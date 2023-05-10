@@ -9,9 +9,11 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 160%;
+  background-color: #001119;
 }
 .logo_container img {
   width: 25px;
+  background-color: #001119;
 }
 
 /* LOGO - ADM  */
@@ -20,9 +22,11 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  background-color: #001119;
 }
 .logo_container_adm img {
   width: 25px;
+  background-color: #001119;
 }
 .logo_container_adm section {
   display: flex;
@@ -70,7 +74,9 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 160%;
+  background-color: #001119;
 }
 .logo_footer_container img {
   width: 25px;
+  background-color: #001119;
 }/*# sourceMappingURL=Logo.css.map */
