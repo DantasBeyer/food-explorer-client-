@@ -11,6 +11,7 @@
   font-weight: regular;
   font-size: 16px;
   line-height: 100%;
+  background-color: transparent;
 }
 
 button {
@@ -20,7 +21,6 @@ button {
   width: 55px;
   height: 35px;
   padding: 10px;
-  background-color: #000405;
   border: none;
 }
 button img {
@@ -34,10 +34,4 @@ button:hover {
 
 button:active img {
   width: 45%;
-}
-
-@media screen and (max-width: 390px) {
-  #stepper_container {
-    width: 100%;
-  }
 }/*# sourceMappingURL=Stepper.css.map */

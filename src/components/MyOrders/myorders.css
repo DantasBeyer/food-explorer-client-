@@ -17,19 +17,24 @@
 .btn .receptImg {
   width: 20px;
   height: 20px;
+  background-color: transparent;
 }
 
-.receptImgTwo {
+.receptImgMobile {
   display: none;
 }
 
 /* My Orders --------------- MOBILE */
 @media screen and (max-width: 768px) {
+  .myorders_container {
+    background-color: #001119;
+  }
   .myorders_container .btn {
     display: none;
   }
-  .receptImgTwo {
+  .receptImgMobile {
     display: flex;
     width: 45px;
+    background-color: transparent;
   }
 }/*# sourceMappingURL=Myorders.css.map */

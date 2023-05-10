@@ -23,6 +23,7 @@
 .btn_back img {
   width: 10px;
   height: 15px;
+  background-color: transparent;
 }
 
 main {
@@ -91,8 +92,13 @@ main {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    position: relative;
   }
   .btn_back {
+    position: absolute;
+    bottom: 11%;
+    right: 5%;
+    background-color: transparent;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -103,7 +109,6 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
   }
   .content h1,
   .content p,
@@ -113,6 +118,5 @@ main {
     justify-content: center;
     text-align: center;
     width: 150%;
-    border: 2px solid red;
   }
 }/*# sourceMappingURL=Details.css.map */

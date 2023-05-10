@@ -147,3 +147,7 @@ $blue_200: #065e7c;
   height: 389px;
   width: 389px;
 }
+
+@mixin mobile-width {
+  width: 768px;
+}
