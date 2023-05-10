@@ -9,15 +9,15 @@ import NavbarAdm from "./components/Navbar/Navbar_adm";
 import Footer from "./components/Footer/Footer";
 import Cards from "./components/Cards/Card";
 import CardsAdm from "./components/Cards/Card_adm";
-import Dishes from "./components/Details/Details.jsx";
+import Details from "./components/Details/Details.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Dishes />
+      <Details />
       {/* 
+      <Navbar/>
     <NavbarAdm/> 
-    <Navbar/>
   
       <br/>
       <Button/>

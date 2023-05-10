@@ -1,11 +1,12 @@
 @import "../../style/variables";
 * {
-  margin: 5px;
   background-color: $dark_400;
+  margin: 0;
 }
 
 .details_container {
-  width: 100vw;
+ 
+  
 }
 
 .btn_back {
@@ -31,19 +32,20 @@ main {
   align-items: center;
   gap: 2%;
 
-  width: 95%;
-  margin: 20px;
+  width: 90%;
+  margin: 5%;
   /* overflow:auto; */
 }
 .img {
-  width: 40%;
+  max-width: 35%;
 }
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 60%;
+  max-width: 60%;
+  /* border: 2px solid rgb(233, 228, 228); */
 
   h1 {
     display: flex;
@@ -54,11 +56,11 @@ main {
     margin-bottom: -3px;
   }
   p {
-    display: flex;
-    justify-content: start;
     @include poppins_200_medium;
     color: $light_300;
-    width: 100%;
+
+    max-width: 60%;
+    margin-left: -40%;
   }
 
   .tags {
@@ -82,32 +84,37 @@ main {
 
 /* ------- MOBILE---------- */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .details_container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    position: relative;
-}
-.btn_back {
-    position: absolute;
-    bottom: 11%;
+    margin: auto;
+  }
+  .btn_back {
+    /*  position: absolute;
+    bottom: 20%;
     right: 5%;
-   background-color: transparent;
-    @include roboto_big_bold;
-}
+    background-color: transparent;
+    @include roboto_big_bold; */
+    display: none;
+  }
   main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    
-    
+    margin: 5%;
+
+    .img {
+      @include size_200;
+      margin: 2%;
+    }
   }
 
   .content {
-    
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
 
     h1,
     p,
@@ -116,10 +123,16 @@ main {
       display: flex;
       justify-content: center;
       text-align: center;
-      width: 150%;
+      width: 100%;
+      margin: 0.2%;
+    
       
     }
-
-    
+    h1 {
+      @include roboto_bigger_bold;
+    }
+    p {
+      @include roboto_small_spaced;
+    }
   }
 }
