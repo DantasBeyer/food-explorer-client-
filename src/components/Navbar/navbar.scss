@@ -1,156 +1,117 @@
-@import '../../style/variables';
+@import "../../style/variables";
 
-#navbar_container{
-display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;    
-    
-    width: 100vw;
-    height: 65px;
-    background-color: $dark_600;
+#navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
 
-    .hamburgerImg{
-        display: none;
-    }
-    .exitImg{
-        width: 30px;
-    }
+  width: 100%;
+  height: 10vh;
+  background-color: $dark_600;
 
+  .hamburgerImg {
+    display: none;
+  }
+  .exitImg {
+    width: 30px;
+  }
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-   
-    p{
-        color: $light_100;
-        @include roboto_big_bold
-    }
-}
-
-.search_bar{
-    background-color: $dark_900;
-    border: none;
-    color: $light_100;
-    width: 30%;
-    height: 40%;
-    border-radius: 5px;
+.search_bar {
+  background-color: $dark_900;
+  border: none;
+  color: $light_100;
+  width: 20%;
+  border-radius: 5px;
 }
 
 /* NAV -----------ADM--------- */
 
-#navbar_container_adm{
+#navbar_container_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 65px;
+  background-color: $dark_600;
+
+  .exitImgAdm {
+    width: 30px;
+  }
+}
+
+.logo_adm {
+  display: flex;
+  align-items: center;
+
+  p {
+    color: $light_100;
+    @include roboto_big_bold;
+  }
+}
+
+.search_bar_adm {
+  background-color: $dark_900;
+  border: none;
+  color: $light_100;
+  width: 30%;
+  height: 40%;
+  border-radius: 5px;
+}
+
+.hamburgerImgAdm {
+  display: none;
+}
+
+/* Nav --------------- MOBILE */
+
+@media screen and (max-width: 767px) {
+  #navbar_container {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    
-      
+
     width: 100vw;
     height: 65px;
     background-color: $dark_600;
 
-    .exitImgAdm{
-        width: 30px;
+    .hamburgerImg {
+      display: flex;
+      width: 30px;
     }
+    .img {
+      width: 30px;
+    }
+  }
 
-}
+  .search_bar {
+    display: none;
+  }
+  .exitImg {
+    display: none;
+  }
+  /* Nav -------ADM------ MOBILE */
 
-.logo_adm{
+  #navbar_container_adm {
     display: flex;
     align-items: center;
-    gap: 10px;
-   
-    p{
-        color: $light_100;
-        @include roboto_big_bold
+    justify-content: center;
+    gap: 40px;
+
+    .hamburgerImgAdm {
+      display: flex;
+      width: 30px;
     }
-}
-
-.search_bar_adm{
-    background-color: $dark_900;
-    border: none;
-    color: $light_100;
-    width: 30%;
-    height: 40%;
-    border-radius: 5px;
-}
-
-.hamburgerImgAdm{
-    display: none;
-}
-
-
-
-
-
-
-/* Nav --------------- MOBILE */
-
-@media screen  and (max-width: 767px){
-    #navbar_container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-around;
-  
-        width: 100vw;
-        height: 65px;
-        background-color: $dark_600;
-
-            .hamburgerImg{
-                display: flex;
-                width: 30px;
-            }
-            .img{
-                width: 30px;
-            }
-        
-        }
-        
-        .search_bar{
-            display: none;
-        }
-        .exitImg{
-            display: none;
-    
-        }
-        /* Nav -------ADM------ MOBILE */
-            
-        #navbar_container_adm{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 40px;
-          
-          
-            .hamburgerImgAdm{
-                display: flex;
-                width: 30px;
-            }
-            .search_bar_adm{
-                display: none;
-            }
-        
-            .exitImgAdm{
-                display: none;
-            }
+    .search_bar_adm {
+      display: none;
     }
-            
 
+    .exitImgAdm {
+      display: none;
+    }
+  }
 }
-
-
-
-
-
-  
-
-
-
-
-
-
-  

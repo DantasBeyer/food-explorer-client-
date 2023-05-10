@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 #navbar_container {
   display: flex;
-  justify-content: center;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
-  height: 65px;
+  width: 100%;
+  height: 10vh;
   background-color: #00111a;
 }
 #navbar_container .hamburgerImg {
@@ -15,25 +14,11 @@
   width: 30px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.logo p {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 160%;
-}
-
 .search_bar {
   background-color: #0d1d25;
   border: none;
   color: #ffffff;
-  width: 30%;
-  height: 40%;
+  width: 20%;
   border-radius: 5px;
 }
 
@@ -43,7 +28,7 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+  width: 100%;
   height: 65px;
   background-color: #00111a;
 }
@@ -54,7 +39,6 @@
 .logo_adm {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 .logo_adm p {
   color: #ffffff;

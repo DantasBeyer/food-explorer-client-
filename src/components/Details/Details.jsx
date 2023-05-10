@@ -6,6 +6,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Stepper from "../Stepper/Stepper";
 import Button from "../Button/Button";
+import backImg from "../../img/icons/left.png";
 
 function Details() {
   return (
@@ -13,7 +14,12 @@ function Details() {
       <div className="nav">
         <Navbar />
       </div>
-      <button className="btn_back"> back </button>
+
+      <button className="btn_back">
+        <img src={backImg} alt="back_img" />
+        back
+      </button>
+
       <main>
         <img className="img" src={parmaImg} alt="parma_img" />
 
