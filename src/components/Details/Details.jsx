@@ -11,9 +11,9 @@ import backImg from "../../img/icons/left.png";
 function Details() {
   return (
     <div className="details_container">
-      <div className="nav">
-        <Navbar />
-      </div>
+      <nav className="nav">
+        <Navbar/>
+      </nav>
 
       <button className="btn_back">
         <img src={backImg} alt="back_img" />
@@ -36,6 +36,7 @@ function Details() {
             <Tag />
             <Tag />
             <Tag />
+            <Tag />
           </div>
 
           <div className="order">
@@ -44,7 +45,9 @@ function Details() {
           </div>
         </section>
       </main>
-      <Footer />
+      <footer className="footer">
+        <Footer />
+      </footer>
     </div>
   );
 }

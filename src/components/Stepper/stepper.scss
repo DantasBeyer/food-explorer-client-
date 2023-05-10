@@ -1,54 +1,39 @@
-@import '../../style/variables';
+@import "../../style/variables";
 
-#stepper_container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    background-color: $dark_100;
-    margin: 2%;
-    color: $light_100;
-    @include roboto_small_regular;
- 
+#stepper_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: $dark_100;
+  margin: 2%;
+  color: $light_100;
+  @include roboto_small_regular;
+  background-color: transparent;
 }
 
-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    width: 55px;
-    height: 35px;
-    padding: 10px;
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background-color: $dark_100;
-    border: none;
+  width: 55px;
+  height: 35px;
+  padding: 10px;
 
-    img{
-        
-        width: 40%;
-        margin: 0;
-    }
+  border: none;
+
+  img {
+    width: 40%;
+    margin: 0;
+  }
 }
 
-button:hover{
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
 }
-button:active{
-    img{
-        width: 45%;
-    }
+button:active {
+  img {
+    width: 45%;
+  }
 }
-
-@media screen and (max-width: 390px) {
-    #stepper_container{
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-

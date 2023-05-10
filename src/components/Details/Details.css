@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
-  margin: 5px;
   background-color: #000a0f;
-}
-
-.details_container {
-  width: 100vw;
+  margin: 0;
 }
 
 .btn_back {
@@ -23,6 +19,7 @@
 .btn_back img {
   width: 10px;
   height: 15px;
+  background-color: transparent;
 }
 
 main {
@@ -30,13 +27,13 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2%;
-  width: 95%;
-  margin: 20px;
+  width: 90%;
+  margin: 5%;
   /* overflow:auto; */
 }
 
 .img {
-  width: 40%;
+  max-width: 35%;
 }
 
 .content {
@@ -44,7 +41,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 60%;
+  max-width: 60%;
+  /* border: 2px solid rgb(233, 228, 228); */
 }
 .content h1 {
   display: flex;
@@ -58,14 +56,13 @@ main {
   margin-bottom: -3px;
 }
 .content p {
-  display: flex;
-  justify-content: start;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
   font-size: 20px;
   line-height: 160%;
   color: #e1e1e6;
-  width: 100%;
+  max-width: 60%;
+  margin-left: -40%;
 }
 .content .tags {
   display: flex;
@@ -85,25 +82,35 @@ main {
 }
 
 /* ------- MOBILE---------- */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .details_container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    margin: auto;
   }
   .btn_back {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 160%;
+    /*  position: absolute;
+    bottom: 20%;
+    right: 5%;
+    background-color: transparent;
+    @include roboto_big_bold; */
+    display: none;
   }
   main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    border: 2px solid red;
+    margin: 5%;
+  }
+  main .img {
+    height: 176px;
+    width: 176px;
+    margin: 2%;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
   .content h1,
   .content p,
@@ -112,7 +119,19 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 150%;
-    border: 2px solid red;
+    width: 100%;
+    margin: 0.2%;
+  }
+  .content h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: auto;
+  }
+  .content p {
+    font-family: "Poppins", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 160%;
   }
 }/*# sourceMappingURL=Details.css.map */
