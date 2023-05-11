@@ -12,13 +12,13 @@ function Details() {
   return (
     <div className="details_container">
       <nav className="nav">
-        <Navbar/>
+        <Navbar />
       </nav>
 
-      <button className="btn_back">
+    {/*   <button className="btn_back">
         <img src={backImg} alt="back_img" />
         back
-      </button>
+      </button> */}
 
       <main>
         <img className="img" src={parmaImg} alt="parma_img" />
