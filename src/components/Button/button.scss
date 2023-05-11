@@ -1,63 +1,52 @@
 @import "../../style/variables";
 
+.include {
+  background-color: $red_100;
+  color: $light_100;
+  @include poppins_100_medium;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
 
-
-.include{
-    background-color: $red_100;
-    color: $light_100;
-    @include poppins_100_medium;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 120px ;
-    height: 40px;
-    
-    
-    
-    &:hover{
-        background-color: $red_200;
-    }
-    &:active{
-        background-color: $red_300;
-    }
+  &:hover {
+    background-color: $red_200;
+  }
+  &:active {
+    background-color: $red_300;
+  }
 }
 
-
 /* BUTTON -------------------- ADM  */
-   .btn_container_adm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $red_100;
+.btn_container_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $red_100;
 
-    @include poppins_100_medium;
-    color: $light_100;
+  @include poppins_100_medium;
+  color: $light_100;
 
-    padding: 6px 20px;
-    gap: 8px;
-    border-radius: 5px;
+  padding: 6px 20px;
+  gap: 8px;
+  border-radius: 5px;
 
-    img{
-        width: 20px;
-        height: 20px;
-    }
-
-   }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
 
 /* BUTTON -----------------------Mobile */
 
-   @media screen and (max-width: 390px) {
-    .btn{
+@media screen and (max-width: 390px) {
+  .btn {
     width: 172px;
     height: 32px;
-    }
-    
-/* BUTTON ----------Mobile-------- ADM */
-.btn_container_adm{
+  }
+
+  /* BUTTON ----------Mobile-------- ADM */
+  .btn_container_adm {
     display: none;
-    
-    }
-
-   }
-   
-
- 
+  }
+}

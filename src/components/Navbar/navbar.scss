@@ -4,16 +4,17 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+
   height: 10vh;
   background-color: $dark_700;
 
-  .hamburgerImg {
+  .hamburger {
     display: none;
   }
   .exitImg {
     width: 30px;
     background-color: transparent;
+    cursor: pointer;
   }
   .search_bar {
     background-color: $dark_900;
@@ -24,6 +25,11 @@
   }
   .myorders {
     background-color: transparent;
+    cursor: pointer;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
 
@@ -81,40 +87,50 @@
     height: 65px;
     background-color: $dark_700;
 
-    .hamburgerImg {
+    .hamburger {
       display: flex;
-      width: 30px;
-    }
-    .img {
-      width: 30px;
-      background-color: transparent;
-    }
-  }
 
-  .search_bar {
-    display: none;
-  }
-  .exitImg {
-    display: none;
-  }
-  /* Nav -------ADM------ MOBILE */
+      color: $light_100;
+      background-color: lightblue;
+      cursor: pointer;
 
-  #navbar_container_adm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-
-    .hamburgerImgAdm {
-      display: flex;
-      width: 30px;
+      &:active {
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 150vh;
+        right: 0%;
+      }
     }
-    .search_bar_adm {
+
+    .search_bar {
       display: none;
     }
-
-    .exitImgAdm {
+    .exitImg {
       display: none;
+    }
+    /* Nav -------ADM------ MOBILE */
+
+    #navbar_container_adm {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+
+      .hamburger {
+        display: flex;
+        width: 30px;
+      }
+      .search_bar_adm {
+        display: none;
+      }
+
+      .exitImgAdm {
+        display: none;
+      }
     }
   }
 }

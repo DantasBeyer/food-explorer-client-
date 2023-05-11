@@ -6,12 +6,13 @@
   height: 10vh;
   background-color: #001119;
 }
-#navbar_container .hamburgerImg {
+#navbar_container .hamburger {
   display: none;
 }
 #navbar_container .exitImg {
   width: 30px;
   background-color: transparent;
+  cursor: pointer;
 }
 #navbar_container .search_bar {
   background-color: #0d1d25;
@@ -22,6 +23,10 @@
 }
 #navbar_container .myorders {
   background-color: transparent;
+  cursor: pointer;
+}
+#navbar_container .hamburger {
+  display: none;
 }
 
 /* NAV -----------ADM--------- */
@@ -74,36 +79,44 @@
     width: 100vw;
     height: 65px;
     background-color: #001119;
+    /* Nav -------ADM------ MOBILE */
   }
-  #navbar_container .hamburgerImg {
+  #navbar_container .hamburger {
     display: flex;
-    width: 30px;
+    color: #ffffff;
+    background-color: lightblue;
+    cursor: pointer;
   }
-  #navbar_container .img {
-    width: 30px;
-    background-color: transparent;
+  #navbar_container .hamburger:active {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 150vh;
+    right: 0%;
   }
-  .search_bar {
+  #navbar_container .search_bar {
     display: none;
   }
-  .exitImg {
+  #navbar_container .exitImg {
     display: none;
   }
-  /* Nav -------ADM------ MOBILE */
-  #navbar_container_adm {
+  #navbar_container #navbar_container_adm {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
   }
-  #navbar_container_adm .hamburgerImgAdm {
+  #navbar_container #navbar_container_adm .hamburger {
     display: flex;
     width: 30px;
   }
-  #navbar_container_adm .search_bar_adm {
+  #navbar_container #navbar_container_adm .search_bar_adm {
     display: none;
   }
-  #navbar_container_adm .exitImgAdm {
+  #navbar_container #navbar_container_adm .exitImgAdm {
     display: none;
   }
 }/*# sourceMappingURL=Navbar.css.map */

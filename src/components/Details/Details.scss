@@ -4,9 +4,6 @@
   margin: 0;
 }
 
-.details_container {
-}
-
 .btn_back {
   display: flex;
   justify-content: start;
@@ -90,16 +87,16 @@ main {
     margin: auto;
   }
   .btn_back {
-    /*  position: absolute;
-    bottom: 20%;
-    right: 5%;
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
     background-color: transparent;
-    @include roboto_big_bold; */
-    display: none;
+    @include roboto_big_bold;
   }
   main {
     display: flex;
     flex-direction: column;
+    height: 78vh;
   }
 
   .content {

@@ -89,16 +89,19 @@ main {
     margin: auto;
   }
   .btn_back {
-    /*  position: absolute;
-    bottom: 20%;
-    right: 5%;
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
     background-color: transparent;
-    @include roboto_big_bold; */
-    display: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
   }
   main {
     display: flex;
     flex-direction: column;
+    height: 78vh;
   }
   .content {
     display: flex;
