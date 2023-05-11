@@ -11,6 +11,7 @@ import Cards from "./components/Cards/Card";
 import CardsAdm from "./components/Cards/Card_adm";
 import Details from "./components/Details/Details.jsx";
 
+
 function App() {
   return (
     <div className="App">

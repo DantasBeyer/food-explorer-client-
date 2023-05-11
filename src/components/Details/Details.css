@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
-  background-color: #000a0f;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000a0f;
 }
 
 .btn_back {
@@ -82,6 +84,9 @@ main {
 
 /* ------- MOBILE---------- */
 @media screen and (max-width: 768px) {
+  .nav {
+    z-index: 9999;
+  }
   .details_container {
     display: flex;
     align-items: center;

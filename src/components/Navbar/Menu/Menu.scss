@@ -1,0 +1,31 @@
+@import '../../../style/variables';
+
+.menu_container{
+    background-color: $dark_700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid red;
+
+
+    width: 100%;
+    height: 100%;
+    margin-top: 50%;
+    
+    padding: 20px;
+
+
+    input{
+        background-color: $dark_900;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+}
+.close{
+    background-color: transparent;
+}

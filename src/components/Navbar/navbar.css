@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #navbar_container {
   display: flex;
   align-items: center;
@@ -25,7 +31,7 @@
   background-color: transparent;
   cursor: pointer;
 }
-#navbar_container .hamburger {
+#navbar_container #hamburger {
   display: none;
 }
 
@@ -73,29 +79,20 @@
 @media screen and (max-width: 768px) {
   #navbar_container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
     width: 100vw;
     height: 65px;
     background-color: #001119;
     /* Nav -------ADM------ MOBILE */
   }
-  #navbar_container .hamburger {
+  #navbar_container #hamburger {
     display: flex;
     color: #ffffff;
-    background-color: lightblue;
     cursor: pointer;
   }
-  #navbar_container .hamburger:active {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    height: 150vh;
-    right: 0%;
+  #navbar_container .bars {
+    background-color: transparent;
   }
   #navbar_container .search_bar {
     display: none;

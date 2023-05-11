@@ -1,7 +1,9 @@
 @import "../../style/variables";
 * {
-  background-color: $dark_400;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $dark_400;
 }
 
 .btn_back {
@@ -80,6 +82,10 @@ main {
 /* ------- MOBILE---------- */
 
 @media screen and (max-width: 768px) {
+
+  .nav{
+    z-index: 9999;
+  }
   .details_container {
     display: flex;
     align-items: center;
