@@ -1,5 +1,9 @@
 @import "../../style/variables";
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #navbar_container {
   display: flex;
   align-items: center;
@@ -28,7 +32,7 @@
     cursor: pointer;
   }
 
-  .hamburger {
+  #hamburger {
     display: none;
   }
 }
@@ -79,33 +83,21 @@
 @media screen and (max-width: 768px) {
   #navbar_container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-
+    gap: 10px;
     width: 100vw;
     height: 65px;
     background-color: $dark_700;
 
-    .hamburger {
+    #hamburger {
       display: flex;
-
       color: $light_100;
-      background-color: lightblue;
       cursor: pointer;
-
-      &:active {
-        background-color: aqua;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 50vw;
-        height: 150vh;
-        right: 0%;
-      }
     }
-
+    .bars{
+      background-color: transparent;
+    }
+    
     .search_bar {
       display: none;
     }
