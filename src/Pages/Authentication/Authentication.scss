@@ -1,0 +1,17 @@
+@import "../../style/variables";
+
+.auth_container,
+.left,
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* border: 1px solid red; */
+  gap: 10px;
+}
+
+.left, .right {
+  width: 50%;
+  justify-content: center;
+}

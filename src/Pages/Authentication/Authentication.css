@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.auth_container,
+.left,
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* border: 1px solid red; */
+  gap: 10px;
+}
+
+.left, .right {
+  width: 50%;
+  justify-content: center;
+}/*# sourceMappingURL=Authentication.css.map */
