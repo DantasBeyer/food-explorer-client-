@@ -1,10 +1,15 @@
 import React from "react";
-import Button from "../Button/Button";
 import "./Authentication.css";
+import Logo from '../Logo/Logo'
+
 function SignIn() {
   return (
     <div className="sigin_container">
-      <header className="titel">Login</header>
+      <header>
+        <p>Login</p>
+        <Logo className="logo"/>
+      
+      </header>
 
       <section className="inputs">
         <p>Email</p>
@@ -12,10 +17,10 @@ function SignIn() {
         <p>Password</p>
         <input type="text" placeholder="minimum of 6 characters" />
       </section>
-
-      <button>Enter</button>
-
-      <a href="#"> Create account</a>
+      <footer>
+        <button>Enter</button>
+        <a href="#"> Create account</a>
+      </footer>
     </div>
   );
 }

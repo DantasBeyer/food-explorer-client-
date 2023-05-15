@@ -1,7 +1,7 @@
 import React from "react";
 import SignIn from "../../components/Authentication/SignIn";
 import Logo from "../../components/Logo/Logo";
-import './Authentication.css'
+import './AuthenticationPage.css'
 
 function Authentication() {
   return (

@@ -1,0 +1,35 @@
+@import "../../style/variables";
+
+.auth_container,
+.left,
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* border: 1px solid red; */
+  gap: 10px;
+}
+
+.left, .right {
+  width: 50%;
+  justify-content: center;
+}
+/* --------------- Mobile-------- */
+
+@media screen and (max-width: 390px) {
+  .auth_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left{
+    display: none;
+  }
+  .right{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid rgb(183, 165, 165);
+  }
+}
