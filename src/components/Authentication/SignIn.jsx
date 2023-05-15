@@ -1,14 +1,14 @@
 import React from "react";
 import "./Authentication.css";
-import Logo from '../Logo/Logo'
+import Logo from "../Logo/Logo";
+import Home from "../../Pages/Home/Home";
 
 function SignIn() {
   return (
-    <div className="sigin_container">
+    <div className="auth_container">
       <header>
         <p>Login</p>
-        <Logo className="logo"/>
-      
+        <Logo />
       </header>
 
       <section className="inputs">
@@ -18,8 +18,8 @@ function SignIn() {
         <input type="text" placeholder="minimum of 6 characters" />
       </section>
       <footer>
-        <button>Enter</button>
-        <a href="#"> Create account</a>
+        <button onClick={Home}>Enter</button>
+        <a to="/"> Create an account</a>
       </footer>
     </div>
   );

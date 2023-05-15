@@ -10,15 +10,21 @@ import Footer from "./components/Footer/Footer";
 import Cards from "./components/Cards/Card";
 import CardsAdm from "./components/Cards/Card_adm";
 import Details from "./components/Details/Details.jsx";
-import Authentication from './Pages/Authentication/Authentication'
+import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-    <Authentication/>
-    {/* 
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      <Footer />
+      {/* 
+    <AuthenticationPage />
     <Details />
-      <Navbar/>
     <NavbarAdm/> 
   
       <br/>
@@ -27,7 +33,6 @@ function App() {
       <br/>
       <Myorders/>
       <Myorders_mobile/>
-      <Footer/>
       <CardsMobile/>
       <CardsMobileAdm/>
       <Stepper/> 

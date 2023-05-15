@@ -1,6 +1,6 @@
 @import "../../style/variables";
 
-.sigin_container,
+.auth_container,
 .inputs {
   display: flex;
   justify-content: center;
@@ -30,8 +30,8 @@ header {
   @include roboto_bigger_bold;
   color: $light_400;
   margin-top: 20%;
-  margin-bottom: -20%;
-  .logo{
+  margin-bottom: -10%;
+  :nth-child(2) {
     display: none;
   }
 }
@@ -89,11 +89,10 @@ footer {
 }
 
 /* ------- MOBILE ------------------- */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 569px) {
   .sigin_container {
     padding-top: 10%;
     background-color: transparent;
-
     height: 100%;
     width: 100%;
   }
@@ -101,7 +100,10 @@ footer {
     p {
       display: none;
     }
-    
+    :nth-child(2) {
+      display: flex;
+      margin-bottom: 20%;
+    }
   }
   .inputs {
     width: 100%;
@@ -110,6 +112,6 @@ footer {
     background-color: $dark_900;
   }
   footer {
-    margin-top: -90%;
+    margin-top: -10%;
   }
 }
