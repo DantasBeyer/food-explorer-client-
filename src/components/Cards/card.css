@@ -2,7 +2,8 @@
 .card_container {
   display: flex;
   flex-direction: column;
-  background-color: #000204;
+  /* background-color: $dark_300; */
+  background-color: #ffffff;
   width: 300px;
   height: 462px;
   padding: 24px;
@@ -175,7 +176,7 @@
   }
   /* .heart_mobile:active{
 
-  } */
+    } */
   .dish {
     display: flex;
     justify-content: center;
@@ -239,7 +240,7 @@
   }
   /* .heart_mobile:active{
 
-  } */
+        } */
   .dish_adm {
     display: flex;
     justify-content: center;

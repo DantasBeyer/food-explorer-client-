@@ -4,7 +4,7 @@ import Myorders from "../MyOrders/Myorders";
 import exitImg from "../../img/icons/logout.png";
 import Logo from "../Logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Menu from "./Menu/Menu";
+/* import Menu from "./Menu/Menu"; */
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -32,7 +32,7 @@ const Navbar = () => {
         )}
       </div>
 
-      <img className="exitImg" src={exitImg} alt="logout_img" />
+      <a href="/auth"><img className="exitImg" src={exitImg}  alt="logout_img" /></a>
     </div>
   );
 };
