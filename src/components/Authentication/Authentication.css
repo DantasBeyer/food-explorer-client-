@@ -65,7 +65,7 @@ header :nth-child(2) {
   margin-top: -10px;
 }
 
-button {
+#enter {
   width: 75%;
   border-radius: 2px;
   background-color: #750310;

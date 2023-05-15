@@ -19,7 +19,7 @@ function SignUp() {
         <input type="text" placeholder="minimum of 6 characters" />
       </section>
       <footer>
-        <button>Enter</button>
+        <button id="enter">Enter</button>
         <a href="#"> I have alrady an account</a>
       </footer>
     </div>

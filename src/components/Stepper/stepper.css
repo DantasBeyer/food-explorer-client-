@@ -14,7 +14,7 @@
   background-color: transparent;
 }
 
-button {
+#minus, #plus {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ button {
   padding: 10px;
   border: none;
 }
-button img {
+#minus img, #plus img {
   width: 40%;
   margin: 0;
 }
