@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-.sigin_container,
+.auth_container,
 .inputs {
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ header {
   line-height: auto;
   color: #c4c4cc;
   margin-top: 20%;
-  margin-bottom: -20%;
+  margin-bottom: -10%;
 }
 header :nth-child(2) {
   display: none;
@@ -91,7 +91,7 @@ footer {
 }
 
 /* ------- MOBILE ------------------- */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 569px) {
   .sigin_container {
     padding-top: 10%;
     background-color: transparent;
@@ -103,6 +103,7 @@ footer {
   }
   header :nth-child(2) {
     display: flex;
+    margin-bottom: 20%;
   }
   .inputs {
     width: 100%;
@@ -111,6 +112,6 @@ footer {
     background-color: #0d1d25;
   }
   footer {
-    margin-top: -90%;
+    margin-top: -10%;
   }
 }/*# sourceMappingURL=Authentication.css.map */
