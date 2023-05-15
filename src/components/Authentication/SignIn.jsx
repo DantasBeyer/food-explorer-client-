@@ -7,7 +7,7 @@ function SignIn() {
     <div className="sigin_container">
       <header>
         <p>Login</p>
-        <Logo className="logo"/>
+        <Logo/>
       
       </header>
 
