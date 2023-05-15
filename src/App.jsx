@@ -9,22 +9,25 @@ import NavbarAdm from "./components/Navbar/Navbar_adm";
 import Footer from "./components/Footer/Footer";
 import Cards from "./components/Cards/Card";
 import CardsAdm from "./components/Cards/Card_adm";
-import Details from "./components/Details/Details.jsx";
+import Details from "./Pages/Details/Details";
+import Home from "./Pages/Home/Home";
 import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home/>} />
+    <Cards/>
+    {  /*  <Navbar />
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/details" element={<Details />} />
+    <Route path="auth" element={<AuthenticationPage/>}/>
+    <Route path="card" element={<Cards/>}/>
       </Routes>
-      <Footer />
+      <Footer /> */}
       {/* 
-    <AuthenticationPage />
-    <Details />
+    
     <NavbarAdm/> 
   
       <br/>
@@ -37,7 +40,7 @@ function App() {
       <CardsMobileAdm/>
       <Stepper/> 
       <CardsAdm/>
-      <Cards/>
+      
     <Tag/> */}
     </div>
   );

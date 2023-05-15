@@ -1,323 +1,277 @@
-@import '../../style/variables';
+@import "../../style/variables";
 
-.card_container{
-    display: flex;
-    flex-direction: column;
+.card_container {
+  display: flex;
+  flex-direction: column;
 
-    background-color: $dark_300 ;
-   
-    width: 300px;
-    height: 462px;
-    padding: 24px;
-    gap: 15px;
-    
+  /* background-color: $dark_300; */
+  background-color: $light_100;
+
+  width: 300px;
+  height: 462px;
+  padding: 24px;
+  gap: 15px;
 }
 
-.heart{
-   display: flex;
-   justify-content: end;
-   img{
-       width: 24px;
-    }
+.heart {
+  display: flex;
+  justify-content: end;
+  img {
+    width: 24px;
+  }
 }
 /* .hear:active{
     
 } */
 
-.dish{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   #cardImg{
-      @include size_200
+.dish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #cardImg {
+    @include size_200;
+  }
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: $light_100;
+    @include roboto_bigger_bold;
+    margin: 0;
+  }
 }
 
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sub_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    text-align: center;
 
-    p{
-        color: $light_100;
-        @include roboto_bigger_bold;
-        margin:0;
-
-    }
-
+    color: $light_400;
+    @include roboto_smaller_regular;
+    margin: 0;
+  }
 }
 
-.sub_title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    p{
-        text-align: center;
-        
-        color: $light_400;
-        @include roboto_smaller_regular;
-        margin:0;
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  p {
+    text-align: center;
 
-    }
-
+    color: $blue_100;
+    @include roboto_biggest_regular;
+    margin: 0;
+  }
 }
 
-.price{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    p{
-        text-align: center;
-       
-        color: $blue_100;
-        @include roboto_biggest_regular;
-        margin:0;
-
-
-    }
-
+.interaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.interaction{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-
 
 /* CARD -------------- ADM  */
 
-.card_container_adm{
-    display: flex;
-    flex-direction: column;
-    background-color: $dark_300 ;
-    width: 304px;
-    height: 462px;
-    padding: 24px;
-    gap: 15px;
-    
-    
+.card_container_adm {
+  display: flex;
+  flex-direction: column;
+  background-color: $dark_300;
+  width: 304px;
+  height: 462px;
+  padding: 24px;
+  gap: 15px;
 }
 
-.pencil_adm{
-    display: flex;
-    justify-content: end;
-    img{
-        width: 24px;
-     }
+.pencil_adm {
+  display: flex;
+  justify-content: end;
+  img {
+    width: 24px;
+  }
 }
 /* .heart_mobile:active{
     
 } */
 
-.dish_adm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    #cardImg{
-        @include size_200
-    }
-    
+.dish_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #cardImg {
+    @include size_200;
+  }
 }
-.title_adm{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.title_adm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    p{
-        color: $light_300;
-        @include roboto_bigger_bold
-    }
-    
+  p {
+    color: $light_300;
+    @include roboto_bigger_bold;
+  }
 }
-.sub_title_adm{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    p{
-        text-align: center;
-        color: $light_400;
-        @include roboto_smaller_regular;
-        margin:0;
-
-
-    }
+.sub_title_adm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    text-align: center;
+    color: $light_400;
+    @include roboto_smaller_regular;
+    margin: 0;
+  }
 }
-.price_adm{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-    p{
-        text-align: center;
-        color: $blue_100;
-        @include roboto_biggest_regular;
-        margin:0;
-    }
-    
+.price_adm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    text-align: center;
+    color: $blue_100;
+    @include roboto_biggest_regular;
+    margin: 0;
+  }
 }
-
-
 
 /* CARD -------------------------- MOBILE  */
 
-@media screen and ( max-width: 390px){
+@media screen and (max-width: 390px) {
+  .card_container {
+    background-color: $dark_300;
 
-    .card_container{
-        background-color: $dark_300 ;
-        
-        width: 210px;
-        height: 292px;
-        padding: 24px;
-        
+    width: 210px;
+    height: 292px;
+    padding: 24px;
+  }
+  .card_container div:nth-child(-n + 2) {
+    display: flex;
+  }
+  .heart {
+    position: absolute;
+    padding: 0 195px;
+    img {
+      width: 14px;
     }
-    .card_container  div:nth-child(-n+2){
-            display: flex;
-      
-    }
-    .heart{
-        position:absolute;
-        padding: 0 195px;
-        img{
-            
-            width: 14px;
-        }
-        
-    }
-    /* .heart_mobile:active{
+  }
+  /* .heart_mobile:active{
         
     } */
-    
-    .dish{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
-        #cardImg{
-            @include size_100 
-        }
-        
-    }
-    .title{
-        display: flex;
-        align-items: center;
-        justify-content: center;
 
-        p{
-            
-            color: $light_300;
-            @include poppins_100_medium
-            
-        }
-        
-    }
-    .sub_title{
-        display: none;
-    }
-    .price{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        
-        p{
-            text-align: center;
-            
-            color: $blue_100;
-            @include roboto_small_regular;
-            margin:0;
-            
-            
-        }
-        
-    }
-    .interaction{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-        
-        /* CARD ------- MOBILE ------ ADM  */
-        .card_container_adm{
-            background-color: $dark_300 ;
-            width: 210px;
-            height: 292px;
-            padding: 24px;
-            
-        }
-        .card_container_adm  div:nth-child(-n+2){
-                display: flex;
-        }
-        .pencil_adm{
-            position:absolute;
-            padding: 0 195px;
+  .dish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-            img{
-                width: 14px;
-            }
-            
-        }
-        /* .heart_mobile:active{
+    #cardImg {
+      @include size_100;
+    }
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      color: $light_300;
+      @include poppins_100_medium;
+    }
+  }
+  .sub_title {
+    display: none;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      text-align: center;
+
+      color: $blue_100;
+      @include roboto_small_regular;
+      margin: 0;
+    }
+  }
+  .interaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* CARD ------- MOBILE ------ ADM  */
+  .card_container_adm {
+    background-color: $dark_300;
+    width: 210px;
+    height: 292px;
+    padding: 24px;
+  }
+  .card_container_adm div:nth-child(-n + 2) {
+    display: flex;
+  }
+  .pencil_adm {
+    position: absolute;
+    padding: 0 195px;
+
+    img {
+      width: 14px;
+    }
+  }
+  /* .heart_mobile:active{
             
         } */
-        
-        .dish_adm{
-            display: flex;
-            justify-content: center;
-            align-items: center;    
-            margin-top: 25%; 
-            #cardImg{
-                width: 88px;
-                height: 88px;
-            }
-        }
-        .title_adm{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-            p{
-                color: $light_300;
-                @include poppins_100_medium
-            }
-        }
-        
-        .sub_title_adm{
-            display: none;
-        }
-        
-        .price_adm{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            p{
-                text-align: center;             
-                color: $blue_100;
-                @include roboto_small_regular;
-                margin:0;
-            }
-        }    
 
-        }
-        .interaction_adm{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    
+  .dish_adm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    #cardImg {
+      width: 88px;
+      height: 88px;
+    }
+  }
+  .title_adm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    p {
+      color: $light_300;
+      @include poppins_100_medium;
+    }
+  }
 
+  .sub_title_adm {
+    display: none;
+  }
 
+  .price_adm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      text-align: center;
+      color: $blue_100;
+      @include roboto_small_regular;
+      margin: 0;
+    }
+  }
+}
+.interaction_adm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

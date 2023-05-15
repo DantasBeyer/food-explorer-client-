@@ -8,10 +8,16 @@
 
   img {
     width: 25px;
-    background-color: transparent;
   }
-  color: $light_100;
-  @include roboto_big_bold;
+  a {
+    color: $light_100;
+    @include roboto_big_bold;
+  }
+}
+
+.logo_container,.logo_footer_container,
+img,
+a {
   background-color: transparent;
 }
 
@@ -34,13 +40,15 @@
     flex-direction: column;
     height: 35px;
   }
-  .logo_name {
+  .logo_name,
+  a {
     color: $light_100;
     @include roboto_big_bold;
     margin: 0;
   }
 
-  .logo_name_adm {
+  .logo_name_adm,
+  a {
     display: flex;
     justify-content: flex-end;
     margin-top: -8px;
@@ -71,9 +79,11 @@
 
   gap: 10px;
 
-  color: $light_700;
-  @include roboto_big_bold;
-  background-color: $dark_700;
+  a {
+    color: $light_700;
+    @include roboto_big_bold;
+    background-color: $dark_700;
+  }
 
   img {
     width: 25px;

@@ -1,19 +1,17 @@
 import React from "react";
 import "./Details.css";
 import parmaImg from "../../img/dishes/parma.png";
-import Tag from "../Tag/Tag";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
-import Stepper from "../Stepper/Stepper";
-import Button from "../Button/Button";
-import backImg from "../../img/icons/left.png";
+import Tag from "../../components/Tag/Tag";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import Stepper from "../../components/Stepper/Stepper";
+import Button from "../../components/Button/Button";
+
 
 function Details() {
   return (
     <div className="details_container">
-      <nav className="nav">
-        <Navbar />
-      </nav>
+      
 
     {/*   <button className="btn_back">
         <img src={backImg} alt="back_img" />
@@ -45,9 +43,7 @@ function Details() {
           </div>
         </section>
       </main>
-      <footer className="footer">
-        <Footer />
-      </footer>
+   
     </div>
   );
 }
