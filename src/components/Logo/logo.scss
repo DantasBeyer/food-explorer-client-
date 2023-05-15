@@ -8,11 +8,11 @@
 
   img {
     width: 25px;
-    background-color: $dark_700;
+    background-color: transparent;
   }
   color: $light_100;
   @include roboto_big_bold;
-  background-color: $dark_700;
+  background-color: transparent;
 }
 
 /* LOGO - ADM  */

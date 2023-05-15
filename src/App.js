@@ -10,13 +10,14 @@ import Footer from "./components/Footer/Footer";
 import Cards from "./components/Cards/Card";
 import CardsAdm from "./components/Cards/Card_adm";
 import Details from "./components/Details/Details.jsx";
-
+import Authentication from './Pages/Authentication/Authentication'
 
 function App() {
   return (
     <div className="App">
-      <Details />
-      {/* 
+    <Authentication/>
+    {/* 
+    <Details />
       <Navbar/>
     <NavbarAdm/> 
   

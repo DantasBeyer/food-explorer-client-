@@ -27,7 +27,7 @@ const Navbar = () => {
           <FaBars className="bars" />
         ) : (
           <div>
-            <Menu />
+            {/* <Menu /> */}
           </div>
         )}
       </div>
