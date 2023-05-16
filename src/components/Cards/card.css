@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 .card_comtainer,
-.heart,
 .dish,
+.heart,
 .title,
 .sub_title,
 .price {
-  /* border: 2px solid red;  */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,36 +12,47 @@
   width: 100%;
   color: #e1e1e6;
   text-align: center;
+  border: 2px solid red;
+}
+.card_comtainer .heart,
+.dish .heart,
+.heart .heart,
+.title .heart,
+.sub_title .heart,
+.price .heart {
+  align-items: initial;
 }
 
-.heart {
+#heart {
   display: flex;
-  align-items: end;
+  justify-content: end;
+  border: 2px solid red;
 }
 
 #cardImg {
   max-width: 70%;
 }
 
+.heart, .title, .sub_title, .price {
+  line-height: 2.5vh;
+}
+
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 1.5rem;
 }
 
 .sub_title {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 12px;
-  line-height: 160%;
+  font-size: 0.8rem;
 }
 
 .price {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 32px;
-  line-height: 160%;
+  font-size: 2rem;
   color: #82f3ff;
 }
 

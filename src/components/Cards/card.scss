@@ -1,12 +1,11 @@
 @import "../../style/variables";
 
 .card_comtainer,
-.heart,
 .dish,
+.heart,
 .title,
 .sub_title,
 .price {
-  /* border: 2px solid red;  */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14,16 +13,24 @@
   width: 100%;
   color: $light_300;
   text-align: center;
-  
+  border: 2px solid red;
+  .heart {
+    align-items: initial;
+  }
 }
 
-.heart {
-  display: flex;
-  align-items: end;
+#heart {
+ display: flex;
+ justify-content: end;
+  border: 2px solid red;
 }
 
 #cardImg {
   max-width: 70%;
+}
+
+.heart,.title,.sub_title,.price{
+  line-height: 2.5vh;
 }
 .title {
   @include poppins_300_medium;

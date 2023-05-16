@@ -13,8 +13,7 @@
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 160%;
+  font-size: 1rem;
   margin-left: 5%;
   gap: 10px;
 }
@@ -50,8 +49,7 @@ main {
   justify-content: start;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 32px;
-  line-height: 140%;
+  font-size: 2rem;
   color: #c4c4cc;
   width: 100%;
   margin-bottom: -3px;
@@ -59,8 +57,7 @@ main {
 .content p {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 20px;
-  line-height: 160%;
+  font-size: 1.5rem;
   color: #7c7c8a;
   max-width: 59%;
   margin-left: -39%;
@@ -100,8 +97,7 @@ main {
     background-color: transparent;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 160%;
+    font-size: 1.5rem;
   }
   main {
     display: flex;
@@ -126,13 +122,11 @@ main {
   .content h1 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    font-size: 24px;
-    line-height: auto;
+    font-size: 1.5rem;
   }
   .content p {
     font-family: "Poppins", sans-serif;
     font-weight: regular;
-    font-size: 16px;
-    line-height: 160%;
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=Details.css.map */

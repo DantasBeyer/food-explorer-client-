@@ -41,113 +41,90 @@ $blue_200: #065e7c;
 @mixin roboto_smallest_regular {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 12px;
-  line-height: 160%;
+  font-size: 0.8rem;
+  
 }
 @mixin roboto_smaller_regular {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 14px;
-  line-height: 160%x;
+  font-size: 1rem;
+  
 }
 @mixin roboto_smaller_bold {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 160%;
+  font-size: 1rem;
+  
 }
 @mixin roboto_small_spaced {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 16px;
-  line-height: 160%;
+  font-size: 1.2rem;
+  
 }
 @mixin roboto_small_regular {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 16px;
-  line-height: 100%;
+  font-size: 1.2rem;
+  
 }
 @mixin roboto_big_bold {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 160%;
+  font-size: 1.5rem;
+  
 }
 @mixin roboto_bigger_bold {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 24px;
-  line-height: auto;
+  font-size: 1.5rem;
+  
 }
 @mixin roboto_biggest_regular {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 32px;
-  line-height: 160%;
+  font-size: 2rem;
+  
 }
 @mixin roboto_giant_regular {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 42px;
-  line-height: auto;
+  font-size: 2.5rem;
+  
 }
 @mixin poppins_100_medium {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  
 }
 @mixin poppins_200_medium {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 20px;
-  line-height: 160%;
+  font-size: 1.5rem;
+  
 }
 @mixin poppins_300_medium {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 1.5rem;
+  
 }
 @mixin poppins_300_regular {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 1.5rem;
+  
 }
 @mixin poppins_400_medium {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 32px;
-  line-height: 140%;
+  font-size: 2rem;
+  
 }
 @mixin poppins_500_medium {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 40px;
-  line-height: 140%;
-}
-
-// Dishes Size
-
-@mixin size_100 {
-  height: 88px;
-  width: 88px;
-}
-@mixin size_200 {
-  height: 176px;
-  width: 176px;
-}
-@mixin size_300 {
-  height: 264px;
-  width: 264px;
-}
-@mixin size_400 {
-  height: 389px;
-  width: 389px;
-}
-
-@mixin mobil-width {
-  width: 768px;
+  font-size: 2.5rem;
+  
 }
