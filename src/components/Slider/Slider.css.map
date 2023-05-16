@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Slider.css"}
+{"version":3,"sources":["../../style/_variables.scss","Slider.scss","Slider.css"],"names":[],"mappings":"AAsCQ,iGAAA;ACpCR;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;ACAJ;;ADGA;EACE,aAAA;EACA,mBAAA;ACAF","file":"Slider.css"}

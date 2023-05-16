@@ -1,1 +1,11 @@
-/*# sourceMappingURL=Slider.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.slider_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=Slider.css.map */
