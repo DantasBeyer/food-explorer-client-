@@ -7,18 +7,19 @@ import Myorders from "./components/MyOrders/Myorders.jsx";
 import Navbar from "./components/Navbar/Navbar";
 import NavbarAdm from "./components/Navbar/Navbar_adm";
 import Footer from "./components/Footer/Footer";
-import Cards from "./components/Cards/CardParma";
+import Cards from "./components/Cards/meals/CardParma";
 import CardsAdm from "./components/Cards/Card_adm";
 import Details from "./Pages/Details/Details";
 import Home from "./Pages/Home/Home";
 import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
 import { Routes, Route } from "react-router-dom";
-import Slider from './components/Slider/Slider'
+
 
 function App() {
   return (
     <div className="App">
-    <Slider/>
+    
+    Route
     {  /*  <Navbar />
     <Cards/>
     <Routes>
