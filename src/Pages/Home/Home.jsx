@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Cards from '../../components/Cards/Card'
+import Cards from '../../components/Cards/CardParma'
 
 function Home() {
   return (
