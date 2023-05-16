@@ -10,6 +10,7 @@
   color: $light_100;
   @include roboto_small_regular;
   background-color: transparent;
+  
 }
 
 #minus, #plus {
@@ -17,7 +18,7 @@
   justify-content: center;
   align-items: center;
 
-  width: 55px;
+  width: 60%;
   height: 35px;
   padding: 10px;
 

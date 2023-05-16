@@ -2,34 +2,38 @@
 
 .card_comtainer,
 .dish,
-.heart,
 .title,
 .sub_title,
 .price {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding: 20px;
-  width: 100%;
+  padding: 5%;
+  max-width: 100%;
   color: $light_300;
   text-align: center;
-  border: 2px solid red;
-  .heart {
-    align-items: initial;
-  }
+  
 }
-
-#heart {
- display: flex;
- justify-content: end;
-  border: 2px solid red;
+.heart {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  #heart {
+    max-width: 10%;
+    margin: 5%;
+    margin-bottom: -10%;
+  }
 }
 
 #cardImg {
   max-width: 70%;
 }
 
-.heart,.title,.sub_title,.price{
+.heart,
+.title,
+.sub_title,
+.price {
   line-height: 2.5vh;
 }
 .title {
