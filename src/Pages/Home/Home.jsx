@@ -1,13 +1,17 @@
-import React from 'react'
-import './home.css'
-import Cards from '../../components/Cards/meals/CardParma'
+import React from "react";
+import SliderDesserts from "../../components/Slider/SliderDesserts";
+import SliderMeals from "../../components/Slider/SliderMeals";
+import SliderDrinks from "../../components/Slider/SliderDrinks";
+import "./home.css";
 
 function Home() {
   return (
-    <div className='home_container'>
-       <Cards/>
+    <div className="home_container">
+      <SliderMeals />
+      <SliderDesserts />
+      <SliderDrinks />
     </div>
-  )
+  );
 }
 
-export default Home   
+export default Home;
