@@ -14,37 +14,14 @@ import Home from "./Pages/Home/Home";
 import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
 import { Routes, Route } from "react-router-dom";
 
-
 function App() {
   return (
     <div className="App">
-    
-    Route
-    {  /*  <Navbar />
-    <Cards/>
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/details" element={<Details />} />
-    <Route path="auth" element={<AuthenticationPage/>}/>
-    <Route path="card" element={<Cards/>}/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
       </Routes>
-      <Footer /> */}
-      {/* 
-    
-    <NavbarAdm/> 
-  
-      <br/>
-      <Button/>
-      <ButtonAdm/>
-      <br/>
-      <Myorders/>
-      <Myorders_mobile/>
-      <CardsMobile/>
-      <CardsMobileAdm/>
-      <Stepper/> 
-      <CardsAdm/>
-      
-    <Tag/> */}
+      <Footer />
     </div>
   );
 }
