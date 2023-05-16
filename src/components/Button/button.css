@@ -4,11 +4,11 @@
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
   border-radius: 5px;
+  border: none;
   cursor: pointer;
-  width: 120px;
+  width: 150%;
   height: 40px;
 }
 .include:hover {
@@ -26,8 +26,7 @@
   background-color: #750310;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
   color: #ffffff;
   padding: 6px 20px;
   gap: 8px;

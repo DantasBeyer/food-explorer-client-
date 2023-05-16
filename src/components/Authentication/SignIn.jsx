@@ -18,7 +18,7 @@ function SignIn() {
         <input type="text" placeholder="minimum of 6 characters" />
       </section>
       <footer>
-        <button onClick={Home}>Enter</button>
+        <button id="enter" onClick={Home}>Enter</button>
         <a to="/"> Create an account</a>
       </footer>
     </div>
