@@ -12,8 +12,8 @@ import CardsAdm from "./components/Cards/Card_adm";
 import Details from "./Pages/Details/Details";
 import Home from "./Pages/Home/Home";
 import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
-import SignIn from "./components/Authentication/SignIn";
-import SignUp from "./components/Authentication/SignUp";
+import SignIn from "./components/AuthenticationComp/SignIn";
+import SignUp from "./components/AuthenticationComp/SignUp";
 import { Routes, Route } from "react-router-dom";
 
 function App() {

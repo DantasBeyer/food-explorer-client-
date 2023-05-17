@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Flipper, Flipped } from "react-flip-toolkit";
-import SignIn from "../../components/Authentication/SignIn";
-import SignUp from "../../components/Authentication/SignUp";
+import SignIn from "../../components/AuthenticationComp/SignIn";
+import SignUp from "../../components/AuthenticationComp/SignUp";
 import Logo from "../../components/Logo/Logo";
 import "./AuthenticationPage.css";
 
