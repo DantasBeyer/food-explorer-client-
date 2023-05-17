@@ -64,14 +64,24 @@ header {
 }
 
 #enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 75%;
+  height: 20%;
   border-radius: 2px;
+  border: none;
   background-color: $red_100;
-  color: $light_200;
+  color: $ligwht_200;
   font-size: 0.7rem;
+  &:hover {
+    background-color: $red_200;
+  }
+  &:active {
+    background-color: $red_300;
+  }
 }
-
-a {
+#createacc {
   color: $light_400;
   font-size: 0.7rem;
   text-decoration: none;
@@ -85,7 +95,7 @@ footer {
   gap: 10px;
   width: 100%;
   height: 73%;
-  margin-top: -25%;
+  margin-top: -35%;
 }
 
 /* ------- MOBILE ------------------- */
