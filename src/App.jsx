@@ -12,6 +12,8 @@ import CardsAdm from "./components/Cards/Card_adm";
 import Details from "./Pages/Details/Details";
 import Home from "./Pages/Home/Home";
 import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
+import SignIn from "./components/Authentication/SignIn";
+import SignUp from "./components/Authentication/SignUp";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/auth" element={<AuthenticationPage />} />
+   { /*     <Route path="/sigin" element={<SignIn/>}/>
+        <Route path="/signup" element={<SignUp/>}/> */}
       </Routes>
       <Footer />
     </div>

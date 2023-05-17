@@ -2,7 +2,7 @@ import React from "react";
 import "./Authentication.css";
 import Logo from "../Logo/Logo";
 
-function SignUp() {
+function SignUp({onClick}) {
   return (
     <div className="auth_container">
       <header>
@@ -19,8 +19,8 @@ function SignUp() {
         <input type="text" placeholder="minimum of 6 characters" />
       </section>
       <footer>
-        <button id="enter">Enter</button>
-        <a href="#"> I have alrady an account</a>
+        <button href="/" id="enter">Enter</button>
+        <a id="createacc" onClick={onClick}> I have alrady an account</a>
       </footer>
     </div>
   );
