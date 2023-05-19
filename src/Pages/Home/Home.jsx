@@ -8,9 +8,11 @@ function Home() {
   return (
     <div className="home_container">
     
-      <SliderMeals />
-      <SliderDesserts />
-      <SliderDrinks />
+    <SliderMeals />
+    <SliderDesserts />
+    <SliderDrinks /> 
+     
+
     </div>
   );
 }
