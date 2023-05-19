@@ -1,38 +1,70 @@
-import React, { useState } from "react";
 import "./Slider.css";
+
 import CardParma from "../Cards/meals/CardParma";
 import CardSalad from "../Cards/meals/CardSalad";
 import CardGambe from "../Cards/meals/CardGambe";
+import React, { useRef, useState } from 'react';
+import SwiperCore, { Virtual, Navigation, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+SwiperCore.use([Virtual, Navigation, Pagination]);
+
 
 function Slider() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const cards = [<CardParma />, <CardSalad />, <CardGambe />];
+  const [swiperRef, setSwiperRef] = useState(null);
+  const appendNumber = useRef(500);
+  const prependNumber = useRef(1);
+  // Create array with 500 slides
+  const [slides, setSlides] = useState(
+    Array.from({ length: 500 }).map((_, index) => `Slide ${index + 1}`)
+  );
 
-  function nextSlide() {
-    setCurrentSlide((oldSlide) => {
-      let nextSlide = oldSlide + 1;
-      if (nextSlide >= cards.length) {
-        nextSlide = 0;
-      }
-      return nextSlide;
-    });
-  }
+  const prepend = () => {
+    setSlides([
+      `Slide ${prependNumber.current - 2}`,
+      `Slide ${prependNumber.current - 1}`,
+      ...slides,
+    ]);
+    prependNumber.current = prependNumber.current - 2;
+    swiperRef.slideTo(swiperRef.activeIndex + 2, 0);
+  };
 
-  function prevSlide() {
-    setCurrentSlide((oldSlide) => {
-      let prevSlide = oldSlide - 1;
-      if (prevSlide < 0) {
-        prevSlide = cards.length - 1;
-      }
-      return prevSlide;
-    });
-  }
+  const append = () => {
+    setSlides([...slides, 'Slide ' + ++appendNumber.current]);
+  };
+
+  const slideTo = (index) => {
+    swiperRef.slideTo(index - 1, 0);
+  };
 
   return (
     <div className="slider_container">
-      <button onClick={prevSlide}>Anterior</button>
-      {cards[currentSlide]}
-      <button onClick={nextSlide}>Próximo</button>
+    <Swiper
+    spaceBetween={80}
+    slidesPerView={3}
+
+    onSlideChange={() => console.log('slide change')}
+    onSwiper={(swiper) => console.log(swiper)}
+    pagination={{
+      type: 'fraction',
+    }}
+    navigation={true}
+    virtual
+  >
+    <SwiperSlide><CardParma/></SwiperSlide>
+    <SwiperSlide><CardSalad/></SwiperSlide>
+    <SwiperSlide><CardGambe/></SwiperSlide>
+    <SwiperSlide><CardParma/></SwiperSlide>
+    <SwiperSlide><CardSalad/></SwiperSlide>
+    <SwiperSlide><CardGambe/></SwiperSlide>
+    ...
+  </Swiper>
+
     </div>
   );
 }
