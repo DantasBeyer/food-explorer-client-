@@ -1,6 +1,6 @@
 @import "../../style/variables";
 
-.card_comtainer,
+.card_container,
 .dish,
 .title,
 .sub_title,
@@ -52,4 +52,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+@media screen and (max-width:760px){
+    .interaction{
+      display: flex;
+      
+      flex-direction: column;
+      
+      :nth-child(2){
+        
+        width: 100%;
+        
+      }
+    }
+    .title{
+      @include poppins_100_medium
+    }
+    .sub_title{
+      display: none;
+    }
+    .price {
+      @include roboto_small_regular;
+     
+    }
+
+   
+
+
 }

@@ -31,7 +31,7 @@ function card() {
 
       <div className="interaction">
         <Stepper />
-        <Button />
+        <Button  />
       </div>
     </div>
   );
