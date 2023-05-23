@@ -1,16 +1,14 @@
 import "./Slider.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import CardParma from "../Cards/meals/CardParma";
 import CardSalad from "../Cards/meals/CardSalad";
 import CardGambe from "../Cards/meals/CardGambe";
-import React, { useRef, useState } from "react";
+import React from "react";
 import SwiperCore, { Virtual, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 
 SwiperCore.use([Virtual, Navigation, Pagination]);
 
@@ -18,7 +16,7 @@ function Slider() {
   return (
     <div className="slider_container">
       <Swiper
-        spaceBetween={80}
+        spaceBetween={30}
         slidesPerView={3}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
