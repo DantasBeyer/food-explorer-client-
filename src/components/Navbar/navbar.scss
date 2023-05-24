@@ -1,8 +1,13 @@
 @import "../../style/variables";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 #navbar_container {
   display: flex;
@@ -12,9 +17,7 @@
   height: 10vh;
   background-color: $dark_700;
 
-  .hamburger {
-    display: none;
-  }
+
   .exitImg {
     width: 30px;
     background-color: transparent;
@@ -30,6 +33,7 @@
   .myorders {
     background-color: transparent;
     cursor: pointer;
+    
   }
 
   #hamburger {
@@ -94,10 +98,12 @@
       color: $light_100;
       cursor: pointer;
     }
-    .bars{
+    .bars {
       background-color: transparent;
+      
+      border: 2px solid red;
     }
-    
+
     .search_bar {
       display: none;
     }

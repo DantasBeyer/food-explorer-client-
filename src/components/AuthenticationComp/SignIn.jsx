@@ -1,7 +1,7 @@
 import React from "react";
 import "../../style/tailwind.css";
 import Logo from "../Logo/Logo";
-import Home from '../../Pages/Home/Home'
+import Home from "../../Pages/Home/Home";
 
 function SignIn({ onClick }) {
   return (

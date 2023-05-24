@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import Details from "../../Details/Details";
+import Details from "../../../Pages/Details/Details";
 import "./Menu.css";
 
 function Menu() {
