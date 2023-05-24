@@ -22,7 +22,7 @@ function SignUp({onClick}) {
     <button 
       href="/"
       className="text-gray-100 text-sm bg-red-900 hover:bg-red-800  active:bg-red-700 rounded h-7 mt-6">
-      Enter
+      <a href="/">Enter</a>
     </button>
     <a onClick={onClick} className="text-gray-200 text-xs mt-3 cursor-pointer ">
       
