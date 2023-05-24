@@ -13,7 +13,7 @@
   img {
     margin-top: 80px;
     margin-left: -60px;
-    max-width: 300px;
+    max-width: 220px;
     transform: scaleX(-1);
   }
 }
@@ -27,5 +27,12 @@
   :nth-child(2) {
     background-color: transparent;
     @include roboto_smallest_regular;
+  }
+}
+
+@media screen and (max-width:768px){
+  .header{
+    width: 70%;
+    
   }
 }

@@ -20,12 +20,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/auth" element={<AuthenticationPage />} />
-   { /*     <Route path="/sigin" element={<SignIn/>}/>
+        {/*     <Route path="/sigin" element={<SignIn/>}/>
         <Route path="/signup" element={<SignUp/>}/> */}
       </Routes>
+
       <Footer />
     </div>
   );
