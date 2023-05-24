@@ -31,8 +31,23 @@
 }
 
 @media screen and (max-width:768px){
-  .header{
-    width: 70%;
     
+  .header{
+    
+    width:100vw;
+    margin-right: 0;
+    margin-left: 0;
+    gap: 5px;
+    img{
+      margin-left: 2%;
+      width: 200px;
+    }
+  }
+  .slogam{
+    :nth-child(2) {
+      background-color: transparent;
+      width: 80%;
+      @include roboto_smallest_regular;
+    }
   }
 }

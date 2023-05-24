@@ -4,7 +4,7 @@ import Myorders from "../MyOrders/Myorders";
 import exitImg from "../../img/icons/logout.png";
 import Logo from "../Logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Menu from "./Menu/Menu";
+import Details from "../../Pages/Details/Details";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
       <input
         className="search_bar"
         type="text"
-        placeholder='"img" search dishes or ingredients'
+        placeholder="search dishes or ingredients"
       />
 
       <div className="myorders">
@@ -37,16 +37,23 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#20202e] flex flex-col justify-center items-center z-10"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0d1d25] flex flex-col justify-center items-center z-10 gap-10"
         }>
-        <li onClick={handleClick} to="home">
-          <h1 className="text-white bg-[#20202e]">Home</h1>
-        </li>
-        <li onClick={handleClick} to="exit">
-          <h1 className="text-white bg-[#20202e]">Exit</h1>
+        <li onClick={handleClick} to="/">
+        <h1 className="text-white bg-[#0d1d25] text-2xl ">Home</h1>
         </li>
         <li>
-          <Menu />
+          <input
+            className="search_bar_menu"
+            type="text"
+            placeholder="search dishes or ingredients"
+          />
+        </li>
+        <li onClick={handleClick} to={Details}>
+          <h1 className="text-white bg-[#0d1d25] text-2xl">Details</h1>
+        </li>
+        <li onClick={handleClick} to="exit">
+          <h1 className="text-white bg-[#0d1d25] text-2xl ">Exit</h1>
         </li>
       </ul>
     </div>

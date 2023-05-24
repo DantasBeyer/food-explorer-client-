@@ -85,17 +85,17 @@
     background-color: #001119;
     /* Nav -------ADM------ MOBILE */
   }
-  #navbar_container #hamburger {
-    display: flex;
-    color: #ffffff;
-    cursor: pointer;
-  }
   #navbar_container .bars {
     background-color: transparent;
-    border: 2px solid red;
   }
   #navbar_container .search_bar {
     display: none;
+  }
+  #navbar_container .search_bar_menu {
+    background-color: #0d161b;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
   }
   #navbar_container .exitImg {
     display: none;
@@ -105,10 +105,6 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-  }
-  #navbar_container #navbar_container_adm .hamburger {
-    display: flex;
-    width: 30px;
   }
   #navbar_container #navbar_container_adm .search_bar_adm {
     display: none;
