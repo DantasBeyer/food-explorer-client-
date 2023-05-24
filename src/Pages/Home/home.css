@@ -35,6 +35,20 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 70%;
+    width: 100vw;
+    margin-right: 0;
+    margin-left: 0;
+    gap: 5px;
+  }
+  .header img {
+    margin-left: 2%;
+    width: 200px;
+  }
+  .slogam :nth-child(2) {
+    background-color: transparent;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-weight: regular;
+    font-size: 0.6rem;
   }
 }/*# sourceMappingURL=home.css.map */

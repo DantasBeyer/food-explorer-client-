@@ -18,7 +18,7 @@ function card() {
       </div>
 
       <div className="title">
-        <p>Torradas de Parma</p>
+        <p>Torradas </p>
       </div>
 
       <div className="sub_title">

@@ -8,7 +8,7 @@ import "../../style/tailwind.css";
 
 function Home() {
   return (
-    <div className="home_container">
+    <div className="flex flex-col justify-center">
       <header className="header">
         <img src={headerImg} alt="header_img" />
 
