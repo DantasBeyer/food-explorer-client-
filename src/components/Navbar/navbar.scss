@@ -1,7 +1,4 @@
 @import "../../style/variables";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
   margin: 0;
@@ -90,7 +87,6 @@
     height: 65px;
     background-color: $dark_700;
 
-   
     .bars {
       background-color: transparent;
     }
@@ -99,11 +95,11 @@
       display: none;
     }
     .search_bar_menu {
-    background-color: $dark_800;
-    border: none;
-    color: $light_100;
-    
-    border-radius: 5px;
+      background-color: $dark_800;
+      border: none;
+      color: $light_100;
+
+      border-radius: 5px;
     }
     .exitImg {
       display: none;
