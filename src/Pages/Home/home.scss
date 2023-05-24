@@ -1,5 +1,31 @@
- @import '../../style/variables';
+@import "../../style/variables";
 
- .home_container{
-    color: $light_100;
- }
+.header {
+  margin-top: 7%;
+  margin-left: 20vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 150px;
+  background: linear-gradient(180deg, #091e26 0%, #00131c 100%);
+
+  img {
+    margin-top: 80px;
+    margin-left: -60px;
+    max-width: 300px;
+    transform: scaleX(-1);
+  }
+}
+.slogam {
+  color: $light_400;
+  background-color: transparent;
+  :nth-child(1) {
+    background-color: transparent;
+    @include poppins_300_medium;
+  }
+  :nth-child(2) {
+    background-color: transparent;
+    @include roboto_smallest_regular;
+  }
+}
