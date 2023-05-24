@@ -39,13 +39,13 @@
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .sub_title {
   font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .price {
@@ -61,7 +61,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .interaction {
     display: flex;
     flex-direction: column;

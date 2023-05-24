@@ -13,7 +13,6 @@
   max-width: 100%;
   color: $light_300;
   text-align: center;
-  
 }
 .heart {
   display: flex;
@@ -54,31 +53,23 @@
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .interaction {
+    display: flex;
 
-@media screen and (max-width:760px){
-    .interaction{
-      display: flex;
-      
-      flex-direction: column;
-      
-      :nth-child(2){
-        
-        width: 100%;
-        
-      }
-    }
-    .title{
-      @include poppins_100_medium
-    }
-    .sub_title{
-      display: none;
-    }
-    .price {
-      @include roboto_small_regular;
-     
-    }
+    flex-direction: column;
 
-   
-
-
+    :nth-child(2) {
+      width: 100%;
+    }
+  }
+  .title {
+    @include poppins_100_medium;
+  }
+  .sub_title {
+    display: none;
+  }
+  .price {
+    @include roboto_small_regular;
+  }
 }
