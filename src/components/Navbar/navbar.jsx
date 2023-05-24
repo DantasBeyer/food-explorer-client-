@@ -5,6 +5,7 @@ import exitImg from "../../img/icons/logout.png";
 import Logo from "../Logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Details from "../../Pages/Details/Details";
+import Auth from "../../Pages/Authentication/AuthenticationPage";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -39,22 +40,24 @@ const Navbar = () => {
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-[#0d1d25] flex flex-col justify-center items-center z-10 gap-10"
         }>
-        <li onClick={handleClick} to="/">
-        <h1 className="text-white bg-[#0d1d25] text-2xl ">Home</h1>
+        <li>
+        <input
+          className="search_bar_menu"
+          type="text"
+          placeholder="Search "
+        />
+      </li>
+        <li>
+          <h1 className="text-white bg-[#0d1d25] text-2xl ">
+            <a href="/">Home</a>
+          </h1>
         </li>
         <li>
-          <input
-            className="search_bar_menu"
-            type="text"
-            placeholder="search dishes or ingredients"
-          />
+          <h1 className="text-white bg-[#0d1d25] text-2xl ">
+            <a href="/auth">Exit</a>
+          </h1>
         </li>
-        <li onClick={handleClick} to={Details}>
-          <h1 className="text-white bg-[#0d1d25] text-2xl">Details</h1>
-        </li>
-        <li onClick={handleClick} to="exit">
-          <h1 className="text-white bg-[#0d1d25] text-2xl ">Exit</h1>
-        </li>
+       
       </ul>
     </div>
   );

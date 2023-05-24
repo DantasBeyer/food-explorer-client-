@@ -18,9 +18,9 @@
 /* --------------- Mobile-------- */
 @media screen and (max-width: 569px) {
   .auth_container {
+    margin-top: -100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
   .left {
     display: none;

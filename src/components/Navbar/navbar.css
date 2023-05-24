@@ -75,8 +75,7 @@
 @media screen and (max-width: 768px) {
   #navbar_container {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    justify-content: space-around;
     width: 100vw;
     height: 65px;
     background-color: #001119;
@@ -93,6 +92,12 @@
     border: none;
     color: #ffffff;
     border-radius: 5px;
+  }
+  #navbar_container .search_bar_menu::-moz-placeholder {
+    text-align: center;
+  }
+  #navbar_container .search_bar_menu::placeholder {
+    text-align: center;
   }
   #navbar_container .exitImg {
     display: none;
