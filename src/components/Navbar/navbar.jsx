@@ -12,26 +12,26 @@ const Navbar = () => {
 
   return (
     <div id="navbar_container">
-      <div className="myorders">
-        <Myorders />
-      </div>
-
-      <Logo />
-      <input
-        className="search_bar"
-        type="text"
-        placeholder='"img" search dishes or ingredients'
-      />
-      <div id="hamburger" onClick={handleClick}>
-        {nav ? (
-          <FaBars className="bars" />
-        ) : (
-          <div>
-            {/* <Menu /> */}
-          </div>
+    
+    <Logo />
+    <input
+    className="search_bar"
+    type="text"
+    placeholder='"img" search dishes or ingredients'
+    />
+    <div id="hamburger" onClick={handleClick}>
+    {nav ? (
+      <FaBars className="bars" />
+      ) : (
+        <div>
+        { /* <Menu />  */}
+        </div>
         )}
-      </div>
-
+        </div>
+        
+        <div className="myorders">
+          <Myorders />
+        </div>
       <a href="/auth"><img className="exitImg" src={exitImg}  alt="logout_img" /></a>
     </div>
   );

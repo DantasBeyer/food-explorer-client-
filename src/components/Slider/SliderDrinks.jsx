@@ -16,7 +16,7 @@ function Slider() {
   return (
     <div className="slider_container">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={10}
         slidesPerView={3}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
