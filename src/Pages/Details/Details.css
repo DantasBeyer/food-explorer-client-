@@ -88,6 +88,10 @@ main {
     display: none;
   }
   .back_btn_mobile {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    width: 100vw;
     font-family: "Poppins", sans-serif;
     font-weight: regular;
     font-size: 1.2rem;

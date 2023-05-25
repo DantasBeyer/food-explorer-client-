@@ -4,7 +4,7 @@ import Myorders from "../MyOrders/Myorders";
 import exitImg from "../../img/icons/logout.png";
 import Logo from "../Logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,6 +12,9 @@ const Navbar = () => {
 
   return (
     <div id="navbar_container">
+      <div className="myorders">
+        <Myorders />
+      </div>
       <Logo />
       <input
         className="search_bar"
@@ -19,17 +22,14 @@ const Navbar = () => {
         placeholder="search dishes or ingredients"
       />
 
-      <div className="myorders">
-        <Myorders />
-      </div>
-      <a href="/auth">
+      <Link onClick={handleClick} to="/Auth">
         <img className="exitImg" src={exitImg} alt="logout_img" />
-      </a>
+      </Link>
       <div onClick={handleClick} className="md:hidden z-20 bg-transparent">
         {!nav ? (
-          <FaBars className=" w-8 h-8 bg-transparent" />
+          <FaBars className=" w-8 h-8 bg-transparent text-slate-400" />
         ) : (
-          <FaTimes className=" w-8 h-8 bg-transparent" />
+          <FaTimes className=" w-8 h-8 bg-transparent  text-slate-400" />
         )}
       </div>
 
@@ -39,24 +39,26 @@ const Navbar = () => {
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-[#0d1d25] flex flex-col justify-center items-center z-10 gap-10"
         }>
-        <li>
-        <input
-          className="search_bar_menu"
-          type="text"
-          placeholder="Search "
-        />
-      </li>
-        <li>
-          <h1 className="text-white bg-[#0d1d25] text-2xl ">
-            <a href="/">Home</a>
-          </h1>
+        <li className="bg-transparent">
+          <input
+            className="search_bar_menu"
+            type="text"
+            placeholder="Search "
+          />
         </li>
-        <li>
-          <h1 className="text-white bg-[#0d1d25] text-2xl ">
-            <a href="/auth">Exit</a>
-          </h1>
+        <li className="bg-transparent">
+          <Link onClick={handleClick} to="/" className="text-white text-2xl ">
+            Home
+          </Link>
         </li>
-       
+        <li className="bg-transparent">
+          <Link
+            onClick={handleClick}
+            to="/Auth"
+            className="text-white text-2xl ">
+            Exit
+          </Link>
+        </li>
       </ul>
     </div>
   );
