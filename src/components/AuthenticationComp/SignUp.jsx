@@ -26,10 +26,10 @@ function SignUp({onClick}) {
       className="text-gray-100 text-sm bg-red-900 hover:bg-red-800  active:bg-red-700 rounded h-7 mt-6">
       Enter
     </button>
-    <a onClick={onClick} className="text-gray-200 text-xs mt-3 cursor-pointer ">
+     <button onClick={onClick} className="text-gray-200 text-xs mt-3 cursor-pointer ">
       
       I have already an account
-    </a>
+     </button>
   </footer>
     </div>
   );
