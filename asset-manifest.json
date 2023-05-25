@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/http//:DantasBeyer.github.io/food-explorer-client/static/css/main.c4d608d7.css",
+    "main.js": "/http//:DantasBeyer.github.io/food-explorer-client/static/js/main.15a3aa64.js",
+    "static/js/787.a3fbb87b.chunk.js": "/http//:DantasBeyer.github.io/food-explorer-client/static/js/787.a3fbb87b.chunk.js",
+    "static/media/macaronsHome.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/macaronsHome.fe2e1a9d4034b9db071c.png",
+    "static/media/prune.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/prune.10035206f0b4116be406.png",
+    "static/media/gambes.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/gambes.06228958188628a11835.png",
+    "static/media/raranello.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/raranello.6c10d6d86b8414192954.png",
+    "static/media/pastry.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/pastry.33f55a3416c8a9ec7915.png",
+    "static/media/espresso.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/espresso.37020a27f4ae01ec1c00.png",
+    "static/media/macaron.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/macaron.a35aa49885acdfb16511.png",
+    "static/media/maracuja_juice.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/maracuja_juice.e282fe30f3949e85d3ce.png",
+    "static/media/tee.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/tee.1932d37ff3f00a9e33ba.png",
+    "static/media/parma.png": "/http//:DantasBeyer.github.io/food-explorer-client/static/media/parma.eb3161dde23a88c173b7.png",
+    "index.html": "/http//:DantasBeyer.github.io/food-explorer-client/index.html",
+    "main.c4d608d7.css.map": "/http//:DantasBeyer.github.io/food-explorer-client/static/css/main.c4d608d7.css.map",
+    "main.15a3aa64.js.map": "/http//:DantasBeyer.github.io/food-explorer-client/static/js/main.15a3aa64.js.map",
+    "787.a3fbb87b.chunk.js.map": "/http//:DantasBeyer.github.io/food-explorer-client/static/js/787.a3fbb87b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d608d7.css",
+    "static/js/main.15a3aa64.js"
+  ]
+}
