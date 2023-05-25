@@ -1,7 +1,7 @@
 import CardSuco from "../Cards/drinks/CardSuco";
 import CardTee from "../Cards/drinks/CardTee";
 import CardEspresso from "../Cards/drinks/CardEspresso";
-import React, { useRef, useState } from 'react';
+
 import SwiperCore, { Virtual, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
