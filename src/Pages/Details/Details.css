@@ -37,7 +37,7 @@ main {
 }
 .content h1 {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
   font-size: 2rem;
@@ -56,14 +56,14 @@ main {
 .content .tags {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   gap: 10px;
 }
 .content .order {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   gap: 10px;
