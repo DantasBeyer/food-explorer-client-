@@ -2,8 +2,6 @@ import React from "react";
 import "./Details.css";
 import parmaImg from "../../img/dishes/parma.png";
 import Tag from "../../components/Tag/Tag";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 import Stepper from "../../components/Stepper/Stepper";
 import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
