@@ -91,7 +91,6 @@ main {
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
-    border: 2px solid red;
     width: 100vw;
     font-family: "Poppins", sans-serif;
     font-weight: regular;
