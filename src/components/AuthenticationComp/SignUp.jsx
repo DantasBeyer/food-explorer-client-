@@ -1,6 +1,6 @@
 import React from "react";
 import '../../style/tailwind.css'
-import Logo from "../Logo/Logo";
+
 
 function SignUp({onClick}) {
   return (
