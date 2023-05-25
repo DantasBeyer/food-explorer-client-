@@ -1,6 +1,8 @@
 import React from "react";
 import '../../style/tailwind.css'
 
+import Home from "../../Pages/Home/Home";
+
 
 function SignUp({onClick}) {
   return (
@@ -20,9 +22,9 @@ function SignUp({onClick}) {
   </section>
   <footer className="flex flex-col  text-center">
     <button 
-      href="/"
+    onClick={Home}
       className="text-gray-100 text-sm bg-red-900 hover:bg-red-800  active:bg-red-700 rounded h-7 mt-6">
-      <a href="/">Enter</a>
+      Enter
     </button>
     <a onClick={onClick} className="text-gray-200 text-xs mt-3 cursor-pointer ">
       
