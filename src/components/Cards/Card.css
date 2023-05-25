@@ -17,7 +17,7 @@
 .heart {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .heart #heart {
   max-width: 10%;
