@@ -1,6 +1,6 @@
 import "./style/input.css";
 import Navbar from "./components/Navbar/navbar";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/footer";
 import Details from "./Pages/Details/Details";
 import Home from "./Pages/Home/Home";
 import AuthenticationPage from "./Pages/Authentication/AuthenticationPage";
