@@ -21,13 +21,13 @@ function SignIn({ onClick }) {
         <button
           onClick={Home}
           className="text-gray-100 text-sm bg-red-900 hover:bg-red-800  active:bg-red-700 rounded h-7 mt-6">
-          <a href="/">Enter</a>
+          Enter
         </button>
-        <a
+        <button
           onClick={onClick}
           className="text-gray-200 text-xs mt-3 cursor-pointer">
           Create an account
-        </a>
+        </button>
       </footer>
     </div>
   );
