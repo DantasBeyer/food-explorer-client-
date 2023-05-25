@@ -5,6 +5,7 @@ import heartImg from "../../../img/icons/heart.png";
 
 import Stepper from "../../Stepper/Stepper";
 import Button from "../../Button/Button";
+import { Link } from "react-router-dom";
 
 function card() {
   return (
@@ -17,9 +18,9 @@ function card() {
         <img id="cardImg" src={dishImg} alt="dish_img" />
       </div>
 
-      <div className="title">
+      <Link to="/details" className="title">
         <p>Prugna </p>
-      </div>
+      </Link>
 
       <div className="sub_title">
         <p>Torta de ameixa com massa amanteigada, polvilho em acucar.</p>

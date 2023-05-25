@@ -6,19 +6,15 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Stepper from "../../components/Stepper/Stepper";
 import Button from "../../components/Button/Button";
-
+import { Link } from "react-router-dom";
 
 function Details() {
   return (
     <div className="details_container">
-      
-
-    {/*   <button className="btn_back">
-        <img src={backImg} alt="back_img" />
-        back
-      </button> */}
-
       <main>
+        <Link to="/" className="back_btn">
+          back
+        </Link>
         <img className="img" src={parmaImg} alt="parma_img" />
 
         <section className="content">
@@ -41,9 +37,11 @@ function Details() {
             <Stepper />
             <Button />
           </div>
+          <Link to="/" className="back_btn_mobile">
+          back
+        </Link>
         </section>
       </main>
-   
     </div>
   );
 }
