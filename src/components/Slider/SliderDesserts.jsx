@@ -1,7 +1,7 @@
 import CardPeachy from "../Cards/dessert/CardPeachy";
 import CardPrugna from "../Cards/dessert/CardPrugna";
 import CardMacarons from "../Cards/dessert/CardMacarons";
-import React, { useRef, useState } from 'react';
+
 import SwiperCore, { Virtual, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
