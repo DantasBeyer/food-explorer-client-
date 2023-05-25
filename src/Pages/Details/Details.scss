@@ -35,7 +35,7 @@ main {
 
   h1 {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     @include poppins_400_medium;
     color: $light_400;
     width: 100%;
@@ -52,7 +52,7 @@ main {
   .tags {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     gap: 10px;
@@ -60,7 +60,7 @@ main {
 
   .order {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     gap: 10px;
