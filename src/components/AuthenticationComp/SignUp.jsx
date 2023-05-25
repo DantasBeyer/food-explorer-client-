@@ -27,7 +27,6 @@ function SignUp({onClick}) {
       Enter
     </button>
      <button onClick={onClick} className="text-gray-200 text-xs mt-3 cursor-pointer ">
-      
       I have already an account
      </button>
   </footer>
