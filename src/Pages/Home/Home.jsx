@@ -3,7 +3,7 @@ import SliderDesserts from "../../components/Slider/SliderDesserts";
 import SliderMeals from "../../components/Slider/SliderMeals";
 import SliderDrinks from "../../components/Slider/SliderDrinks";
 import headerImg from "../../img/icons/macaronsHome.png";
-import "./home.css";
+import "./Home.css";
 import "../../style/tailwind.css";
 
 function Home() {
