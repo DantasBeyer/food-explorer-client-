@@ -4,8 +4,7 @@ import Myorders from "../MyOrders/Myorders";
 import exitImg from "../../img/icons/logout.png";
 import Logo from "../Logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Details from "../../Pages/Details/Details";
-import Auth from "../../Pages/Authentication/AuthenticationPage";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
