@@ -2,7 +2,7 @@ import React from "react";
 import "../Card.css";
 import dishImg from "../../../img/dishes/parma.png";
 import heartImg from "../../../img/icons/heart.png";
-
+import { Link } from "react-router-dom";
 import Stepper from "../../Stepper/Stepper";
 import Button from "../../Button/Button";
 
@@ -16,10 +16,9 @@ function card() {
       <div className="dish">
         <img id="cardImg" src={dishImg} alt="dish_img" />
       </div>
-
-      <div className="title">
+      <Link to="/details" className="title">
         <p>Torradas </p>
-      </div>
+      </Link>
 
       <div className="sub_title">
         <p>Presunto de parma e rúcula em um pão com fermentação natural.</p>

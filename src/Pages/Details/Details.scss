@@ -6,21 +6,10 @@
   background-color: $dark_400;
 }
 
-.btn_back {
-  display: flex;
-  justify-content: start;
-  align-items: center;
+.back_btn {
+  margin-top: -370px;
   color: $light_100;
   @include roboto_smaller_bold;
-
-  margin-left: 5%;
-  gap: 10px;
-
-  img {
-    width: 10px;
-    height: 15px;
-    background-color: transparent;
-  }
 }
 
 main {
@@ -82,29 +71,29 @@ main {
 /* ------- MOBILE---------- */
 
 @media screen and (max-width: 768px) {
-
-  .nav{
-    z-index: 9999;
-  }
   .details_container {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: auto;
-  }
-  .btn_back {
-    position: absolute;
-    bottom: 10%;
-    right: 50%;
-    background-color: transparent;
-    @include roboto_big_bold;
-  }
-  main {
-    display: flex;
-    flex-direction: column;
-    height: 78vh;
-  }
+    
 
+    main {
+    
+      display: flex;
+      flex-direction: column;
+      height: 78vh;
+      .img {
+        
+        min-width: 60%;
+      }
+    }
+  }
+  .back_btn {
+    display: none;
+  }
+  .back_btn_mobile {
+    @include roboto_small_spaced;
+    color: $light_300;
+  }
   .content {
     display: flex;
     width: 100%;
