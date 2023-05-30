@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 .myordersPage_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  height: 100vh;
+  text-align: center;
   color: aliceblue;
-  gap: 20px;
+}
+
+.main_content {
   border: 2px solid red;
+  height: 80%;
 }
 
 .back_btn_mobile {
