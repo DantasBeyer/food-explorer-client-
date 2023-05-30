@@ -91,11 +91,11 @@ main {
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
-    width: 100vw;
     font-family: "Poppins", sans-serif;
     font-weight: regular;
     font-size: 1.2rem;
     color: #e1e1e6;
+    width: 100vw;
   }
   .content {
     display: flex;

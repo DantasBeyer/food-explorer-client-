@@ -91,14 +91,7 @@ main {
     display: none;
   }
   .back_btn_mobile {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 5%;
-    
-    width: 100vw;
-
-    @include roboto_small_spaced;
-    color: $light_300;
+   @include btn_back;
   }
   .content {
     display: flex;

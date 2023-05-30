@@ -128,3 +128,11 @@ $blue_200: #065e7c;
   font-size: 2.5rem;
   
 }
+@mixin btn_back{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    @include roboto_small_spaced;
+    color: $light_300;
+    width: 100vw;
+}
