@@ -18,7 +18,7 @@ function card() {
         <img id="cardImg" src={dishImg} alt="dish_img" />
       </div>
 
-      <Link to="/details" className="title">
+      <Link to="/Details" className="title">
         <p>Macaron </p>
       </Link>
 
