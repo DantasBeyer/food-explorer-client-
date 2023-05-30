@@ -13,9 +13,9 @@ function card() {
         <img id="heart" src={heartImg} alt="hear_img" />
       </div>
 
-      <div className="dish">
+      <Link to="/Details" className="dish">
         <img id="cardImg" src={dishImg} alt="dish_img" />
-      </div>
+      </Link>
       <Link to="/details" className="title">
         <p>Torradas </p>
       </Link>

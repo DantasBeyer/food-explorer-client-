@@ -14,16 +14,16 @@ function card() {
         <img id="heart" src={heartImg} alt="hear_img" />
       </div>
 
-      <div className="dish">
+      <Link to="/Details" className="dish">
         <img id="cardImg" src={dishImg} alt="dish_img" />
-      </div>
+      </Link>
 
       <Link to="/details" className="title">
         <p>Tee </p>
       </Link>
 
       <div className="sub_title">
-        <p>Chá de  anis, canela e limao. Sinta o aroma italiano</p>
+        <p>Chá de anis, canela e limao. Sinta o aroma italiano</p>
       </div>
 
       <div className="price">

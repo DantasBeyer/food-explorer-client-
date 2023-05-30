@@ -1,8 +1,7 @@
 import React from "react";
-import '../Card.css'
+import "../Card.css";
 import dishImg from "../../../img/dishes/macaron.png";
 import heartImg from "../../../img/icons/heart.png";
-
 import Stepper from "../../../components/Stepper/Stepper";
 import Button from "../../../components/Button/Button";
 import { Link } from "react-router-dom";
@@ -14,9 +13,9 @@ function card() {
         <img id="heart" src={heartImg} alt="hear_img" />
       </div>
 
-      <div className="dish">
+      <Link to="/Details" className="dish">
         <img id="cardImg" src={dishImg} alt="dish_img" />
-      </div>
+      </Link>
 
       <Link to="/Details" className="title">
         <p>Macaron </p>
