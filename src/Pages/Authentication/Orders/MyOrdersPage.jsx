@@ -5,9 +5,10 @@ import "./MyOrdersPage.css";
 function MyOrdersPage() {
   return (
     <div className="myordersPage_container">
-      MyOrdersPage
-      <Link  className="back_btn_mobile" to="/">
-        Home
+      <h1>MyOrdersPage</h1>
+      <main className="main_content">Main Content</main>
+      <Link className="back_btn_mobile" to="/">
+        Back
       </Link>
     </div>
   );
