@@ -22,6 +22,7 @@ function Slider() {
         onSwiper={(swiper) => console.log(swiper)}
         pagination={{
           type: "bullets",
+          
         }}
         navigation={true}
         virtual>
