@@ -5,6 +5,7 @@ import exitImg from "../../img/icons/logout.png";
 import Logo from "../Logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Transition } from "@headlessui/react";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -32,34 +33,42 @@ const Navbar = () => {
           <FaTimes className=" w-8 h-8 bg-transparent  text-slate-400" />
         )}
       </div>
-
-      <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0d1d25] flex flex-col justify-center items-center z-10 gap-10"
-        }>
-        <li className="bg-transparent">
-          <input
-            className="search_bar_menu"
-            type="text"
-            placeholder="Search "
-          />
-        </li>
-        <li className="bg-transparent">
-          <Link onClick={handleClick} to="/" className="text-white text-2xl ">
-            Home
-          </Link>
-        </li>
-        <li className="bg-transparent">
-          <Link
-            onClick={handleClick}
-            to="/Auth"
-            className="text-white text-2xl ">
-            Exit
-          </Link>
-        </li>
-      </ul>
+      <Transition
+        show={nav}
+        enter="transition-opacity duration-400"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-400"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0">
+        <ul
+          className={
+            !nav
+              ? "hidden"
+              : "absolute top-0 left-0 w-full h-screen bg-[#0d1d25] flex flex-col justify-center items-center z-10 gap-10"
+          }>
+          <li className="bg-transparent">
+            <input
+              className="search_bar_menu"
+              type="text"
+              placeholder="Search "
+            />
+          </li>
+          <li className="bg-transparent">
+            <Link onClick={handleClick} to="/" className="text-white text-2xl ">
+              Home
+            </Link>
+          </li>
+          <li className="bg-transparent">
+            <Link
+              onClick={handleClick}
+              to="/Auth"
+              className="text-white text-2xl ">
+              Exit
+            </Link>
+          </li>
+        </ul>
+      </Transition>
     </div>
   );
 };
